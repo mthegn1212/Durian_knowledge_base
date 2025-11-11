@@ -1271,6 +1271,166 @@
         "consistency": 0.95,
         "last_verified": "2025-11-11"
     }
+    },
+    {
+    "disease_id": "SR008",
+    "disease_name": "Bệnh Đốm Rong",
+    "scientific_name": "Cephaleuros virescens",
+    "common_names": [
+        "Đốm rong",
+        "Tảo đỏ",
+        "Đốm tảo",
+        "Đốm cam"
+    ],
+    "pathogen_type": "tảo",
+    "severity_level": "trung_bình",
+    "risk_season": [
+        "mùa mưa",
+        "độ ẩm cao (trên 80%)",
+        "giai đoạn cây suy yếu"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Vết bệnh ban đầu là đốm nhỏ, tròn, màu xanh xám, hơi nổi lên.",
+        "Về sau, vết bệnh phát triển lớn hơn, có lớp lông nhung mịn, chuyển sang màu đỏ cam, cam gạch hoặc nâu đỏ.",
+        "Tảo mọc trên bề mặt lá, cản trở quang hợp, làm lá bị vàng, khô và có thể rụng."
+        ],
+        "stem": [
+        "Đây là nơi gây hại nặng nhất.",
+        "Tảo tấn công vỏ thân và cành, tạo thành các mảng bám màu xanh xám, sau chuyển sang cam đỏ.",
+        "Tảo ăn sâu vào lớp biểu bì, làm vỏ cây bị nứt nẻ, khô, bong tróc.",
+        "Vết nứt trên thân/cành là cửa ngõ cực kỳ nguy hiểm cho nấm Phytophthora (gây bệnh Xì Mủ) xâm nhập và gây thối thân."
+        ],
+        "roots": [
+        "Không có triệu chứng ở rễ."
+        ],
+        "fruits": [
+        "Tảo có thể tấn công vỏ trái, tạo các đốm xám hoặc cam.",
+        "Vết bệnh làm vỏ trái cứng lại, mất thẩm mỹ, giảm giá trị thương phẩm."
+        ],
+        "early_stage": "Các đốm tròn nhỏ, màu xanh xám, hơi nổi trên lá hoặc thân.",
+        "late_stage": "Vết bệnh phát triển thành mảng lớn có lớp lông nhung màu cam gạch, đỏ nâu. Vỏ cây ở vị trí bệnh bị nứt nẻ, bong tróc."
+    },
+    "favorable_conditions": [
+        "Độ ẩm cao (trên 80-90%), mưa nhiều, sương mù.",
+        "Vườn rậm rạp, thiếu ánh sáng, không thông thoáng (đây là điều kiện tiên quyết).",
+        "Cây chăm sóc kém, suy yếu, thiếu dinh dưỡng.",
+        "Đất chua (pH thấp), thiếu phân hữu cơ.",
+        "Nấm tồn tại và lây lan qua gió, nước mưa, côn trùng."
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Biện pháp quan trọng nhất: Cắt tỉa cành, tạo tán thông thoáng, đảm bảo ánh nắng chiếu vào thân, cành.",
+        "Trồng mật độ hợp lý.",
+        "Vệ sinh vườn, dọn dẹp cỏ dại để giảm ẩm độ.",
+        "Bón phân cân đối (NPK), tăng cường phân hữu cơ, bón vôi (nâng pH đất) để cây khỏe mạnh.",
+        "Đảm bảo vườn thoát nước tốt, không đọng nước."
+        ],
+        "biological": [
+        "Bón nấm đối kháng Trichoderma để cải tạo đất và tăng sức đề kháng cho cây."
+        ],
+        "chemical_prevention": [
+        "Quét vôi hoặc dung dịch Boóc-đô (Bordeaux) 1% lên gốc và thân cây (cao 1-1.5m) vào đầu mùa mưa."
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR008-CHEM01",
+        "name": "Norshield 86.2WG (hoặc Kocide, Champion)",
+        "active_ingredient": "Gốc Đồng (Copper Hydroxide, Copper Oxychloride)",
+        "type": "Thuốc trị nấm/tảo (tiếp xúc, sát khuẩn)",
+        "application_method": "Dùng bàn chải chà sạch lớp rong, sau đó quét hoặc phun thuốc trực tiếp lên vết bệnh.",
+        "source": "taydojsc.com.vn, anphatnong.com.vn, dichvukhuyennong.com, welofarm.vn, phanbonthuysinh.vn"
+        },
+        {
+        "chemical_id": "SR008-CHEM02",
+        "name": "Dithane M-45 (hoặc Mancozeb 80WP)",
+        "active_ingredient": "Mancozeb",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun ướt đều lên tán lá, thân, cành khi bệnh xuất hiện.",
+        "source": "taydojsc.com.vn, phanbonthuysinh.vn, welofarm.vn"
+        },
+        {
+        "chemical_id": "SR008-CHEM03",
+        "name": "Antracol 70WP",
+        "active_ingredient": "Propineb",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun ướt đều lên tán lá, thân, cành.",
+        "source": "phanbonthuysinh.vn"
+        },
+        {
+        "chemical_id": "SR008-CHEM04",
+        "name": "Anvil 5SC",
+        "active_ingredient": "Hexaconazole",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun ướt đều cây, có thể pha chung với gốc đồng.",
+        "source": "taydojsc.com.vn, phanbonthuysinh.vn"
+        }
+    ],
+    "diagnosis_tips": [
+        "Dấu hiệu đặc trưng là lớp lông nhung mịn, màu cam gạch hoặc đỏ nâu.",
+        "Khác với Nấm Hồng (SR006) có màu hồng phấn, Đốm Rong có màu cam/đỏ gạch.",
+        "Bệnh thường xuất hiện ở mặt dưới cành hoặc nơi khuất ánh sáng trước."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Tây Đô JSC",
+        "url": "https://taydojsc.com.vn/cach-dieu-tri-benh-dom-rong-tren-cay-sau-rieng/",
+        "document": "Cách điều trị bệnh đốm rong trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "An Phát Nông",
+        "url": "https://anphatnong.com.vn/benh-dom-rong-tren-cay-sau-rieng-nguyen-nhan-va-cach-xu-ly",
+        "document": "Bệnh đốm rong trên cây sầu riêng: Nguyên nhân và cách xử lý",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Dịch Vụ Khuyến Nông",
+        "url": "https://dichvukhuyennong.com/PHONG-TRU-HIEU-QUA-BENH-DOM-RONG-GAY-HAI-TREN-CAY-SAU-RIENG-r405.html",
+        "document": "PHÒNG TRỪ HIỆU QUẢ BỆNH ĐỐM RONG GÂY HẠI TRÊN CÂY SẦU RIÊNG",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Welofarm",
+        "url": "https://welofarm.vn/giai-phap-phong-va-tri-dom-rong-tren-sau-rieng-hieu-qua",
+        "document": "Giải pháp phòng và trị đốm rong trên sầu riêng hiệu quả",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Phân bón Thủy Sính",
+        "url": "https://phanbonthuysinh.vn/benh-dom-rong-tren-cay-sau-rieng/",
+        "document": "Bệnh đốm rong trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR008-IMG01",
+        "description": "Triệu chứng đốm rong trên lá với màu đặc trưng.",
+        "filename": "images/SR008/domrong_la_taydo.jpg",
+        "source": "taydojsc.com.vn"
+        },
+        {
+        "image_id": "SR008-IMG02",
+        "description": "Đốm rong tấn công thân, cành, gây nứt vỏ.",
+        "filename": "images/SR008/domrong_than_taydojsc.jpg",
+        "source": "taydojsc.com.vn"
+        },
+        {
+        "image_id": "SR008-IMG03",
+        "description": "Cận cảnh vết đốm rong (tảo) trên vỏ cành sầu riêng.",
+        "filename": "images/SR008/domrong_canh_anphatnong.jpg",
+        "source": "anphatnong.com.vn"
+        }
+    ],
+    "expert_notes": "Bệnh này là 'bệnh cơ hội', chỉ tấn công khi cây yếu, vườn rậm rạp. Nguy hiểm lớn nhất của Đốm Rong là làm nứt vỏ, tạo vết thương cho nấm Phytophthora (SR001) và các nấm khác xâm nhập gây xì mủ, thối thân.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+    }
     }
   ]
 }
