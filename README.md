@@ -1,16 +1,3 @@
----
-pretty_name: "Durian Knowledge Base"
-tags:
-- "vietnamese"
-- "agriculture"
-- "plant-disease"
-- "durian"
-- "sầu riêng"
-- "bệnh cây trồng"
-- "json"
-license: "cc-by-4.0"
----
-
 # 🍈 Durian Knowledge Base
 
 An open-source, manually-curated dataset containing detailed information on the most common diseases and pests affecting the Durian tree (Durio zibethinus) in Vietnam.
