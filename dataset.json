@@ -1582,6 +1582,166 @@
         "consistency": 0.95,
         "last_verified": "2025-11-11"
     }
+    },
+    {
+    "disease_id": "SR010",
+    "disease_name": "Bệnh Phấn Trắng",
+    "scientific_name": "Oidium sp. (hoặc Oidium durionis)",
+    "common_names": [
+        "Phấn trắng"
+    ],
+    "pathogen_type": "nấm",
+    "severity_level": "cao",
+    "risk_season": [
+        "mùa khô",
+        "thời tiết hanh khô",
+        "ít mưa",
+        "đêm có sương mù nhiều"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Xuất hiện lớp bột mịn, màu trắng xám (như phấn) trên bề mặt lá, thường là mặt dưới lá non trước.",
+        "Nấm hút dinh dưỡng làm lá bị biến dạng, xoăn lại, còi cọc.",
+        "Vết bệnh lan rộng, làm lá bị khô, cháy và rụng."
+        ],
+        "stem": [
+        "Bệnh tấn công mạnh vào hoa.",
+        "Lớp phấn trắng bao phủ cuống hoa và toàn bộ chùm hoa.",
+        "Hoa bị bệnh sẽ khô, chuyển sang màu nâu đen và rụng hàng loạt.",
+        "Gây ảnh hưởng nghiêm trọng đến khả năng thụ phấn và đậu trái."
+        ],
+        "roots": [
+        "Không có triệu chứng ở rễ."
+        ],
+        "fruits": [
+        "Nấm tấn công trái non, bao phủ lớp phấn trắng trên cuống trái và vỏ trái.",
+        "Trái non bị bệnh sẽ còi cọc, biến dạng, phát triển chậm.",
+        "Vỏ trái bị nám, sần sùi, làm giảm giá trị thương phẩm.",
+        "Bệnh nặng gây rụng trái non hàng loạt."
+        ],
+        "early_stage": "Các đốm nhỏ màu trắng xám, mịn như bột, xuất hiện ở mặt dưới lá non hoặc trên hoa.",
+        "late_stage": "Lớp phấn lan rộng bao phủ toàn bộ lá, hoa, trái non. Gây xoăn lá, rụng hoa, rụng trái hàng loạt, cây còi cọc."
+    },
+    "favorable_conditions": [
+        "Thời tiết hanh khô, ít mưa (đây là điều kiện đặc trưng).",
+        "Độ ẩm không khí cao (trên 85%) vào ban đêm và sáng sớm (do sương mù nhiều).",
+        "Nhiệt độ tương đối mát, khoảng 20-30°C.",
+        "Vườn trồng rậm rạp, thiếu ánh sáng, không thông thoáng.",
+        "Bón phân thừa đạm, thiếu cân đối.",
+        "Nấm lây lan mạnh qua gió."
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Cắt tỉa cành, tạo tán thông thoáng để giảm độ ẩm và tăng cường ánh nắng.",
+        "Thu dọn, tiêu hủy các bộ phận bị bệnh (lá, hoa, trái rụng).",
+        "Bón phân cân đối, tránh bón thừa đạm.",
+        "Tưới nước (phun sương) vào sáng sớm để rửa trôi sương đêm và bào tử nấm (làm giảm độ ẩm tương đối vào ban đêm)."
+        ],
+        "biological": [
+        "Sử dụng các vi sinh vật đối kháng như Trichoderma, Chaetomium."
+        ],
+        "chemical_prevention": [
+        "Phun phòng bệnh định kỳ, đặc biệt là trước khi cây ra hoa và giai đoạn trái non, khi thời tiết có sương mù nhiều."
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR010-CHEM01",
+        "name": "Kumulus 80WP (hoặc Sulox 80WP, Yes 80WP)",
+        "active_ingredient": "Sulfur (Lưu huỳnh)",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun ướt đều cây. Lưu ý: Không phun khi trời nắng gắt hoặc nhiệt độ >32°C vì dễ gây cháy lá, hoa.",
+        "source": "nongduockobeta.com, agridrone.vn, nguyenlieusinhhoc.com, thafaco.vn"
+        },
+        {
+        "chemical_id": "SR010-CHEM02",
+        "name": "Anvil 5SC (hoặc Hexa 5SC)",
+        "active_ingredient": "Hexaconazole",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun trị bệnh khi phát hiện.",
+        "source": "nongduockobeta.com, agridrone.vn, nguyenlieusinhhoc.com, thafaco.vn"
+        },
+        {
+        "chemical_id": "SR010-CHEM03",
+        "name": "Amistar Top 325SC (hoặc Tilt 250EC)",
+        "active_ingredient": "Azoxystrobin + Difenoconazole (hoặc Propiconazole)",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun trị bệnh.",
+        "source": "nongduockobeta.com, thafaco.vn"
+        },
+        {
+        "chemical_id": "SR010-CHEM04",
+        "name": "Daconil 75WP",
+        "active_ingredient": "Chlorothalonil",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun trị bệnh.",
+        "source": "thafaco.vn"
+        }
+    ],
+    "diagnosis_tips": [
+        "Dấu hiệu đặc trưng nhất là lớp bột mịn màu trắng xám, có thể dùng tay 'chùi' đi được.",
+        "Bệnh phát triển mạnh vào MÙA KHÔ, hanh, có sương đêm (khác với hầu hết các bệnh nấm khác thường phát triển vào mùa mưa).",
+        "Cần phân biệt rõ với Rầy Phấn Trắng: Bệnh Phấn Trắng là lớp bột mịn, còn Rầy Phấn Trắng là con côn trùng nhỏ, màu trắng, sẽ bay lên khi động vào cây."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Nongduoc Kobeta",
+        "url": "https://nongduockobeta.com/blogs/news/benh-phan-trang-sau-rieng-nguyen-nhan-trieu-chung-va-cach-phong-tri",
+        "document": "Bệnh phấn trắng sầu riêng: Nguyên nhân, triệu chứng và cách phòng trị",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "AgriDrone Việt Nam",
+        "url": "https://agridrone.vn/benh-phan-trang-sau-rieng/",
+        "document": "Bệnh phấn trắng sầu riêng và biện pháp phòng trừ",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Nguyên Liệu Sinh Học",
+        "url": "https://nguyenlieusinhhoc.com/benh-phan-trang-tren-sau-rieng/",
+        "document": "Bệnh phấn trắng trên sầu riêng - Nguyên nhân, triệu chứng và giải pháp",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Thafaco",
+        "url": "https://thafaco.vn/benh-phan-trang-gay-hai-sau-rieng-cach-xu-ly/",
+        "document": "Bệnh phấn trắng gây hại sầu riêng, cách xử lý",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "VNFarm",
+        "url": "https://vnfarm.com.vn/benh-phan-trang-sau-rieng",
+        "document": "Bệnh phấn trắng sầu riêng: Nguyên nhân, tác hại và cách trị bệnh",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR010-IMG01",
+        "description": "Lớp phấn trắng đặc trưng của bệnh trên lá sầu riêng.",
+        "filename": "images/SR010/phantrang_la.webp",
+        "source": "vnfarm.com.vn"
+        },
+        {
+        "image_id": "SR010-IMG02",
+        "description": "Bệnh phấn trắng tấn công vào trái lớn.",
+        "filename": "images/SR010/phantrang_trailon.png",
+        "source": "nongduockobeta.com"
+        },
+        {
+        "image_id": "SR010-IMG03",
+        "description": "Bệnh tấn công trên trái, làm trái biến dạng, rụng.",
+        "filename": "images/SR010/phantrang_trai.webp",
+        "source": "vnfarm.com.vn"
+        }
+    ],
+    "expert_notes": "Đây là bệnh rất nguy hiểm cho năng suất vì nó tấn công trực tiếp vào hoa và trái non, có thể gây mất trắng vụ mùa. Cần phun phòng kỹ trước và trong giai đoạn ra hoa nếu thời tiết khô hanh, có sương đêm.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+    }
     }
   ]
 }
