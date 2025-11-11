@@ -1431,6 +1431,157 @@
         "consistency": 0.95,
         "last_verified": "2025-11-11"
     }
+    },
+    {
+    "disease_id": "SR009",
+    "disease_name": "Bệnh Bồ Hóng",
+    "scientific_name": "Capnodium sp. (hoặc Meliola sp.)",
+    "common_names": [
+        "Nấm bồ hóng",
+        "Muội đen",
+        "Nấm muội đen"
+    ],
+    "pathogen_type": "nấm (thứ cấp)",
+    "severity_level": "trung_bình",
+    "risk_season": [
+        "mùa khô",
+        "mùa nắng nóng"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Xuất hiện một lớp màng mỏng, màu đen, khô, giống như lớp bồ hóng hoặc muội than bám trên bề mặt lá (thường là mặt trên).",
+        "Lớp bồ hóng này cản trở nghiêm trọng khả năng quang hợp của lá.",
+        "Lá cây bị bệnh sẽ dần chuyển sang màu vàng, còi cọc, sinh trưởng kém và có thể rụng sớm."
+        ],
+        "stem": [
+        "Lớp muội đen có thể bao phủ cả cành và thân non."
+        ],
+        "roots": [
+        "Không có triệu chứng ở rễ."
+        ],
+        "fruits": [
+        "Nấm bồ hóng bám đen trên vỏ trái, làm trái bị bao phủ bởi một lớp muội đen.",
+        "Trái bị bệnh phát triển kém, nhỏ, và quan trọng nhất là làm mất giá trị thương phẩm (mẫu mã xấu)."
+        ],
+        "early_stage": "Quan sát thấy sự xuất hiện của côn trùng chích hút (như rệp sáp, rầy) và lớp dịch 'mật' dính mà chúng tiết ra.",
+        "late_stage": "Nấm bồ hóng phát triển thành lớp màng đen dày, bao phủ toàn bộ lá, trái, cành nơi có dịch mật."
+    },
+    "favorable_conditions": [
+        "Nguyên nhân trực tiếp: Sự xuất hiện của côn trùng chích hút (rệp sáp, rầy xanh, rầy nhảy, rệp vảy, rầy phấn trắng).",
+        "Nấm bồ hóng phát triển trên lớp 'dịch mật' (chất thải có đường) do côn trùng này tiết ra.",
+        "Điều kiện thời tiết: Mùa khô, nắng nóng là điều kiện cho côn trùng chích hút bùng phát mạnh.",
+        "Vườn rậm rạp, thiếu thông thoáng, tạo điều kiện cho côn trùng ẩn nấp."
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Biện pháp quan trọng nhất: Thăm vườn thường xuyên, kiểm soát mật độ côn trùng chích hút ngay từ đầu.",
+        "Cắt tỉa cành, tạo tán thông thoáng, đảm bảo ánh nắng chiếu vào.",
+        "Vệ sinh vườn, dọn cỏ dại, tàn dư.",
+        "Kiểm soát kiến, vì kiến thường 'nuôi' rệp sáp để lấy dịch mật."
+        ],
+        "biological": [
+        "Sử dụng các thiên địch (như bọ rùa) để kiểm soát rầy rệp.",
+        "Sử dụng các loại thuốc trừ sâu sinh học."
+        ],
+        "chemical_prevention": [
+        "Phun thuốc trừ sâu định kỳ (đặc biệt trong mùa khô) để quản lý rầy, rệp sáp, không cho chúng bùng phát thành dịch."
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR009-CHEM01",
+        "name": "Movento, Confidor (hoặc các tên thương mại khác)",
+        "active_ingredient": "Imidacloprid, Thiamethoxam, Dinotefuran, Buprofezin",
+        "type": "Thuốc trừ sâu (diệt rầy, rệp)",
+        "application_method": "Bước 1 (Bắt buộc): Phun để tiêu diệt côn trùng chích hút. Đây là bước quan trọng nhất.",
+        "source": "baophapluat.vn, nongnghiepsofa.com, thiennong689.com.vn, tincay.com"
+        },
+        {
+        "chemical_id": "SR009-CHEM02",
+        "name": "Dầu khoáng (Mineral Oil)",
+        "active_ingredient": "Petroleum Oil",
+        "type": "Thuốc trừ sâu / Chất tẩy rửa",
+        "application_method": "Vừa có tác dụng làm ngạt côn trùng, vừa giúp 'rửa trôi', làm bong tróc lớp nấm bồ hóng bám trên lá.",
+        "source": "nongnghiepavn.com, nongnghiepsofa.com, tincay.com"
+        },
+        {
+        "chemical_id": "SR009-CHEM03",
+        "name": "Norshield 86.2WG (hoặc Bumper 250EC, Manozeb 80WP)",
+        "active_ingredient": "Gốc Đồng, Hexaconazole, Mancozeb",
+        "type": "Thuốc trị nấm (tiếp xúc, lưu dẫn)",
+        "application_method": "Bước 2: Sau khi diệt côn trùng, phun thuốc nấm để làm sạch lớp muội đen còn sót lại.",
+        "source": "nongnghiepavn.com, baophapluat.vn, nongnghiepsofa.com, thiennong689.com.vn, congtyhai.com"
+        }
+    ],
+    "diagnosis_tips": [
+        "Dấu hiệu đặc trưng: Lớp muội đen khô, dễ dàng dùng tay 'chùi' hoặc 'cạo' ra khỏi lá, để lộ bề mặt lá vẫn còn xanh (không bị thối).",
+        "Bệnh luôn đi kèm với sự xuất hiện của rầy, rệp hoặc dịch dính (chất thải của chúng)."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Nông Nghiệp AVN",
+        "url": "https://nongnghiepavn.com/phong-tri-benh-bo-hong-tren-sau-rieng/",
+        "document": "Phòng trừ bệnh bồ hóng trên sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Báo Pháp Luật",
+        "url": "https://baophapluat.vn/khong-con-lo-ngai-benh-nam-bo-hong-gay-hai-tren-cay-sau-rieng-post317490.html",
+        "document": "Không còn lo ngại bệnh nấm bồ hóng gây hại trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Nông Nghiệp Sofa",
+        "url": "https://nongnghiepsofa.com/benh-nam-bo-hong/",
+        "document": "Bệnh Nấm Bồ Hóng Và Cách Đặc Trị Hiệu Quả",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Thiên Nông",
+        "url": "https://thiennong689.com.vn/2024/08/nam-bo-hong-gay-hai-cho-cay-sau-rieng/",
+        "document": "NẤM BỒ HÓNG GÂY HẠI CHO CÂY SẦU RIÊNG",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Tin Cậy",
+        "url": "https://tincay.com/rep-sap-keo-theo-nam-bo-hong/",
+        "document": "Rệp sáp kéo theo nấm bồ hóng trên cây trồng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Công ty TNHH Hóa Nông Hợp Trí (HAI)",
+        "url": "https://www.congtyhai.com/tru-benh-nam-bo-hong-tren-cay-sau-rieng",
+        "document": "Trừ bệnh nấm bồ hóng trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR009-IMG01",
+        "description": "Lớp nấm bồ hóng (muội đen) bám dày trên lá sầu riêng.",
+        "filename": "images/SR009/bohong_la_nongnghiepsofa.png",
+        "source": "nongnghiepsofa.com"
+        },
+        {
+        "image_id": "SR009-IMG02",
+        "description": "Bệnh bồ hóng bám đen trên vỏ trái sầu riêng, làm giảm giá trị.",
+        "filename": "images/SR009/bohong_trai_thiennong.webp",
+        "source": "thiennong689.com.vn"
+        },
+        {
+        "image_id": "SR009-IMG03",
+        "description": "Nguyên nhân gốc rễ: Rệp sáp (côn trùng chích hút) tiết dịch mật.",
+        "filename": "images/SR009/repsap_nguyennhan_tincay.webp",
+        "source": "tincay.com"
+        }
+    ],
+    "expert_notes": "Phải nhớ: Đây là bệnh 'thứ cấp'. Nấm bồ hóng vô hại, nó chỉ ăn dịch mật. Kẻ thù thực sự là côn trùng chích hút. Phải diệt côn trùng (Bước 1) thì bệnh mới hết. Nếu chỉ phun thuốc nấm (Bước 2) mà không diệt côn trùng, bệnh sẽ quay lại 100%.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+    }
     }
   ]
 }
