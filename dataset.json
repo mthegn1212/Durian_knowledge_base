@@ -1101,6 +1101,176 @@
         "consistency": 0.95,
         "last_verified": "2025-11-11"
     }
+    },
+    {
+    "disease_id": "SR007",
+    "disease_name": "Bệnh Đốm Lá (Đốm Mắt Ếch)",
+    "scientific_name": "Phức hợp nấm: Cercospora sp. (chủ yếu C. durionis) và Phomopsis sp. (chủ yếu P. durionis)",
+    "common_names": [
+        "Đốm lá",
+        "Đốm mắt ếch",
+        "Đốm lá Cercospora",
+        "Đốm lá Phomopsis"
+    ],
+    "pathogen_type": "nấm",
+    "severity_level": "trung_bình",
+    "risk_season": [
+        "mùa mưa",
+        "độ ẩm cao (trên 85%)"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Triệu chứng khác nhau tùy thuộc vào loại nấm gây bệnh:",
+        "Do Cercospora (Đốm Mắt Ếch): Vết bệnh ban đầu là đốm nhỏ màu nâu, sau đó phát triển thành hình tròn hoặc bầu dục. Đặc trưng: tâm vết bệnh có màu xám trắng, viền ngoài màu nâu sẫm, thường có quầng vàng lan rộng ra xung quanh, trông giống 'mắt ếch'. Thường xuất hiện trên lá già và lá bánh tẻ.",
+        "Do Phomopsis: Vết bệnh thường lớn hơn, hình dạng bất định. Tâm vết bệnh màu nâu xám hoặc xám trắng, viền nâu, có quầng vàng. Dấu hiệu đặc trưng: trên vết bệnh (phần tâm) xuất hiện nhiều chấm đen nhỏ li ti, đó chính là các túi bào tử (pycnidia) của nấm.",
+        "Khi bệnh nặng, nhiều vết bệnh liên kết lại thành mảng cháy khô lớn, làm lá bị rách, thủng, và rụng sớm, ảnh hưởng nghiêm trọng đến quang hợp."
+        ],
+        "stem": [
+        "Không phải triệu chứng chính."
+        ],
+        "roots": [
+        "Không có triệu chứng ở rễ."
+        ],
+        "fruits": [
+        "Không phải triệu chứng chính, bệnh chủ yếu tấn công lá."
+        ],
+        "early_stage": "Các đốm nhỏ màu nâu hoặc vàng nâu xuất hiện trên mặt lá.",
+        "late_stage": "Vết bệnh lan rộng, có tâm xám trắng và viền nâu rõ rệt ('mắt ếch' do Cercospora) hoặc có chấm đen li ti (do Phomopsis). Lá bị thủng, cháy và rụng."
+    },
+    "favorable_conditions": [
+        "Độ ẩm cao (trên 85-90%), mưa nhiều, sương mù.",
+        "Vườn trồng mật độ dày, rậm rạp, thiếu ánh sáng.",
+        "Đất thoát nước kém, vườn bị ẩm thấp.",
+        "Bón phân mất cân đối (thừa đạm, thiếu Kali, Canxi, Magie).",
+        "Vườn ít chăm sóc, vệ sinh kém, tàn dư lá bệnh không được thu dọn."
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Cắt tỉa cành, tạo tán thông thoáng, để ánh nắng chiếu vào.",
+        "Vệ sinh vườn, thu gom lá bệnh rụng đem tiêu hủy.",
+        "Đảm bảo thoát nước tốt, không để vườn bị ngập úng.",
+        "Bón phân cân đối (NPK), tăng cường Kali, Canxi, Magie, hạn chế bón đạm."
+        ],
+        "biological": [
+        "Bón bổ sung nấm đối kháng Trichoderma vào đất để tăng cường vi sinh vật có lợi."
+        ],
+        "chemical_prevention": [
+        "Phun phòng bằng các thuốc gốc đồng (Copper Hydroxide, Copper Oxychloride) hoặc Mancozeb, Propineb vào đầu mùa mưa."
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR007-CHEM01",
+        "name": "Dithane M-45 (hoặc Manozeb 80WP)",
+        "active_ingredient": "Mancozeb",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun ướt đều hai mặt lá.",
+        "source": "happyagri.com.vn, dichvukhuyennong.com, agridrone.vn, nongnghiepsofa.com, congnghecaoaumy.vn"
+        },
+        {
+        "chemical_id": "SR007-CHEM02",
+        "name": "Bavistin 50FL (hoặc Vicarben 50SC)",
+        "active_ingredient": "Carbendazim",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun ướt đều hai mặt lá.",
+        "source": "happyagri.com.vn, dichvukhuyennong.com, agridrone.vn, nongnghiepsofa.com, congnghecaoaumy.vn"
+        },
+        {
+        "chemical_id": "SR007-CHEM03",
+        "name": "Amistar Top 325SC (hoặc Score 250EC)",
+        "active_ingredient": "Azoxystrobin + Difenoconazole",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun ướt đều hai mặt lá.",
+        "source": "happyagri.com.vn, dichvukhuyennong.com, agridrone.vn, nongnghiepsofa.com, congnghecaoaumy.vn"
+        },
+        {
+        "chemical_id": "SR007-CHEM04",
+        "name": "Anvil 5SC",
+        "active_ingredient": "Hexaconazole",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun ướt đều hai mặt lá.",
+        "source": "happyagri.com.vn, dichvukhuyennong.com, agridrone.vn, congnghecaoaumy.vn"
+        },
+        {
+        "chemical_id": "SR007-CHEM05",
+        "name": "Antracol 70WP",
+        "active_ingredient": "Propineb",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun ướt đều hai mặt lá.",
+        "source": "dichvukhuyennong.com, nongnghiepsofa.com, congnghecaoaumy.vn"
+        },
+        {
+        "chemical_id": "SR007-CHEM06",
+        "name": "Norshield 86.2WG (hoặc Kocide)",
+        "active_ingredient": "Gốc Đồng (Copper Hydroxide, Copper Oxychloride)",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun ướt đều hai mặt lá.",
+        "source": "happyagri.com.vn, dichvukhuyennong.com, agridrone.vn, nongnghiepsofa.com, congnghecaoaumy.vn"
+        }
+    ],
+    "diagnosis_tips": [
+        "Dấu hiệu 'mắt ếch' (tâm xám trắng, viền nâu) là đặc trưng của nấm Cercospora.",
+        "Nếu vết bệnh có các chấm đen nhỏ li ti (túi bào tử) thì đó là do nấm Phomopsis."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Happy Agri",
+        "url": "https://happyagri.com.vn/benh-dom-la-sau-rieng/",
+        "document": "Bệnh đốm lá sầu riêng và cách phòng trừ hiệu quả",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Dịch Vụ Khuyến Nông",
+        "url": "https://dichvukhuyennong.com/BIEN-PHAP-PHONG-TRU-BENH-DOM-LA-TREN-SAU-RIENG-r405.html",
+        "document": "BIỆN PHÁP PHÒNG TRỪ BỆNH ĐỐM LÁ TRÊN SẦU RIÊNG",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "AgriDrone Việt Nam",
+        "url": "https://agridrone.vn/benh-dom-la-tren-cay-sau-rieng/",
+        "document": "Bệnh đốm lá trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Nông Nghiệp Sofa",
+        "url": "https://nongnghiepsofa.com/khac-phuc-la-sau-rieng-bi-dom-vang/",
+        "document": "Lá sầu riêng bị đốm vàng: Nguyên nhân và cách khắc phục",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Công Nghệ Cao Âu Mỹ",
+        "url": "httpsf://congnghecaoaumy.vn/kien-thuc/69-benh-dom-la-sau-rieng-nguyen-nhan-dau-hieu-va-cach-phong-tri",
+        "document": "Bệnh đốm lá sầu riêng: Nguyên nhân, dấu hiệu và cách phòng trị",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR007-IMG01",
+        "description": "Triệu chứng đốm lá 'mắt ếch' do Cercospora.",
+        "filename": "images/SR007/dom-la-sau-rieng-1.webp",
+        "source": "happyagri.com.vn"
+        },
+        {
+        "image_id": "SR007-IMG02",
+        "description": "Triệu chứng đốm lá do Phomopsis với các chấm đen li ti (túi bào tử).",
+        "filename": "images/SR007/domla_phomopsis_dichvu.png",
+        "source": "dichvukhuyennong.com"
+        },
+        {
+        "image_id": "SR007-IMG03",
+        "description": "Lá bị bệnh nặng, nhiều vết đốm liên kết.",
+        "filename": "images/SR007/domla_nang_nnsofa.jpg",
+        "source": "nongnghiepsofa.com"
+        }
+    ],
+    "expert_notes": "Bệnh thường gây hại nặng trên lá già và lá bánh tẻ, làm giảm khả năng quang hợp và có thể gây rụng lá nếu không phòng trị. Cần phân biệt rõ 2 loại nấm (Cercospora và Phomopsis) để quản lý hiệu quả.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+    }
     }
   ]
 }
