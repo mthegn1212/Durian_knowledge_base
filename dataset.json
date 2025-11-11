@@ -754,38 +754,179 @@
     }
     },
     {
-      "disease_id": "SR005",
-      "disease_name": "Bệnh Thối Trái",
-      "scientific_name": "Phytophthora sp.",
-      "common_names": ["Thối đít trái", "Thối cuống trái"],
-      "pathogen_type": "nấm",
-      "severity_level": "cao",
-      "risk_season": ["mùa mưa", "gần thu hoạch"],
-      "symptoms": {
-        "leaves": [],
-        "stem": [],
-        "roots": [],
-        "fruits": [],
-        "early_stage": "Chưa cập nhật",
-        "late_stage": "Chưa cập nhật"
-      },
-      "favorable_conditions": [],
-      "prevention_methods": {
-        "cultural": [],
-        "biological": [],
-        "chemical_prevention": []
-      },
-      "treatment_chemicals": [],
-      "diagnosis_tips": [],
-      "verified_sources": [],
-      "images": [],
-      "expert_notes": "Chưa cập nhật",
-      "data_quality": {
-        "completeness": 0.1,
-        "accuracy": 0.0,
-        "consistency": 0.0,
-        "last_verified": ""
-      }
+    "disease_id": "SR005",
+    "disease_name": "Bệnh Thối Trái",
+    "scientific_name": "Phytophthora palmivora (hoặc Phytophthora sp.)",
+    "common_names": [
+        "Thối đít trái",
+        "Thối cuống trái",
+        "Thối trái do Phytophthora"
+    ],
+    "pathogen_type": "nấm",
+    "severity_level": "rất_cao",
+    "risk_season": [
+        "mùa mưa",
+        "gần thu hoạch",
+        "độ ẩm cao"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Nấm bệnh có thể lây từ lá (đốm bệnh) sang trái nếu chúng mọc gần và tiếp xúc với nhau."
+        ],
+        "stem": [
+        "Tương tự như lá, bệnh có thể lây từ cành (vết xì mủ) sang trái nếu chúng tiếp xúc."
+        ],
+        "roots": [
+        "Nấm bệnh tồn tại chủ yếu trong đất và rễ. Nước mưa bắn tóe là con đường chính để nấm từ đất lây lan lên các trái ở tầng thấp."
+        ],
+        "fruits": [
+        "Xuất hiện các đốm nhỏ, úng nước, màu nâu đen (ban đầu).",
+        "Vết bệnh lan rộng rất nhanh, chuyển sang màu đen hoặc nâu sẫm, không có ranh giới rõ ràng.",
+        "Khi độ ẩm cao, trên vết thối xuất hiện lớp tơ nấm xốp, màu trắng.",
+        "Bệnh thường bắt đầu từ chóp trái (đít trái) do nước mưa đọng lại, hoặc từ cuống trái.",
+        "Bệnh cũng có thể lây lan khi trái tiếp xúc với lá, cành bị bệnh.",
+        "Trái thối rữa, có mùi hôi (do bội nhiễm), và rụng hàng loạt."
+        ],
+        "early_stage": "Đốm nhỏ, úng nước, màu sậm trên vỏ trái, đặc biệt ở chóp hoặc cuống.",
+        "late_stage": "Vết thối lan rộng, bao phủ phần lớn trái, xuất hiện tơ nấm trắng, trái rụng."
+    },
+    "favorable_conditions": [
+        "Độ ẩm không khí rất cao (trên 90%).",
+        "Mưa nhiều, kéo dài (nước bắn tóe lây lan nấm từ đất lên trái).",
+        "Nhiệt độ mát (18-26°C) là lý tưởng.",
+        "Vườn rậm rạp, thiếu thông thoáng, cành lá sum suê.",
+        "Đất trồng thoát nước kém, bị ngập úng.",
+        "Bón thừa đạm, thiếu Kali, Canxi, Magie (làm vỏ trái yếu, dễ nứt)."
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Cắt tỉa cành tạo tán thông thoáng, đặc biệt là loại bỏ các cành gần mặt đất (cách đất ít nhất 1m).",
+        "Xây dựng hệ thống thoát nước tốt, tránh đọng nước.",
+        "Thu gom và tiêu hủy trái, cành, lá bị bệnh (kể cả những trái rụng dưới đất).",
+        "Bón phân cân đối, tăng cường Kali, Canxi, Magie để vỏ trái cứng cáp, khỏe mạnh.",
+        "Có thể dùng biện pháp bọc trái (bao trái) để hạn chế nấm và sâu bệnh."
+        ],
+        "biological": [
+        "Bón nấm đối kháng Trichoderma vào đất để ức chế mầm bệnh Phytophthora trong đất."
+        ],
+        "chemical_prevention": [
+        "Quét vôi gốc vào đầu mùa mưa để diệt mầm bệnh (giống SR001).",
+        "Phun thuốc phòng bệnh định kỳ (7-10 ngày/lần) trong mùa mưa, đặc biệt là giai đoạn trái non đang phát triển.",
+        "Phun các thuốc gốc đồng (Gốc Đồng) hoặc Mancozeb vào đầu mùa mưa."
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR005-CHEM01",
+        "name": "Ridomil Gold 68WG",
+        "active_ingredient": "Metalaxyl + Mancozeb",
+        "type": "Thuốc trị nấm (lưu dẫn, tiếp xúc)",
+        "application_method": "Phun ướt đều lên trái, cành, lá. Có thể tưới gốc để diệt nấm trong đất.",
+        "source": "tincay.com, anphatnong.com.vn"
+        },
+        {
+        "chemical_id": "SR005-CHEM02",
+        "name": "Aliette 800WG",
+        "active_ingredient": "Fosetyl-Aluminium",
+        "type": "Thuốc trị nấm (lưu dẫn 2 chiều)",
+        "application_method": "Phun ướt đều cây, giúp tăng tính đề kháng cho cây từ bên trong.",
+        "source": "tincay.com, nongnghiepmoitruong.vn, phanbon3tot.com, nghiepnong.com"
+        },
+        {
+        "chemical_id": "SR005-CHEM03",
+        "name": "Acrobat MZ 90D",
+        "active_ingredient": "Dimethomorph + Mancozeb",
+        "type": "Thuốc trị nấm (lưu dẫn, tiếp xúc)",
+        "application_method": "Phun trị bệnh, ướt đều tán lá và trái.",
+        "source": "tincay.com, nghiepnong.com"
+        },
+        {
+        "chemical_id": "SR005-CHEM04",
+        "name": "Norshield 86.2WG",
+        "active_ingredient": "Copper Hydroxide (Gốc Đồng)",
+        "type": "Thuốc trị nấm (tiếp xúc, sát khuẩn)",
+        "application_method": "Phun phòng bệnh vào đầu mùa mưa.",
+        "source": "nongnghiepmoitruong.vn, anphatnong.com.vn"
+        },
+        {
+        "chemical_id": "SR005-CHEM05",
+        "name": "Amistar Top 325SC",
+        "active_ingredient": "Azoxystrobin + Difenoconazole",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun trị bệnh, đặc biệt hiệu quả khi phun ở giai đoạn sớm.",
+        "source": "tincay.com"
+        }
+    ],
+    "diagnosis_tips": [
+        "Dấu hiệu đặc trưng nhất là lớp tơ nấm màu trắng mọc trên vết thối khi trời ẩm.",
+        "Bệnh lây lan rất nhanh, từ một đốm nhỏ có thể thối cả trái chỉ trong 3-5 ngày.",
+        "Cần phân biệt với bệnh Thán Thư (SR004): Thán thư có đốm bào tử màu hồng, vết bệnh lõm, vòng đồng tâm; còn bệnh này (Phytophthora) có tơ nấm màu trắng và vết úng nước lan rộng, không có vòng."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Tin Cậy",
+        "url": "https://tincay.com/giai-phap-phong-benh-thoi-trai-tren-sau-rieng/",
+        "document": "Giải pháp phòng bệnh thối trái trên sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Nông nghiệp & Môi trường",
+        "url": "https://nongnghiepmoitruong.vn/benh-thoi-trai-sau-rieng-va-cach-phong-tri-d756704.html",
+        "document": "Bệnh thối trái sầu riêng và cách phòng trị",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Phân Bón 3 Tốt",
+        "url": "https://phanbon3tot.com/nguyen-nhan-va-cach-phong-tri-benh-thoi-trai-sau-rieng-vao-mua-mua",
+        "document": "Nguyên nhân và cách phòng trị bệnh thối trái sầu riêng vào mùa mưa",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "An Phát Nông",
+        "url": "https://anphatnong.com.vn/2-cong-thuc-phong-ngua-thoi-trai",
+        "document": "2 công thức phòng ngừa thối trái sầu riêng mùa mưa",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "AgriDrone Việt Nam",
+        "url": "https://agridrone.vn/benh-thoi-trai-sau-rieng/",
+        "document": "Bệnh thối trái sầu riêng: Nguyên nhân và cách phòng trừ",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Nghiệp Nông",
+        "url": "https://nghiepnong.com/blogs/benh-thoi-trai-sau-rieng/",
+        "document": "Bệnh thối trái sầu riêng do Phytophthora Palmivora",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR005-IMG01",
+        "description": "Triệu chứng thối trái với lớp tơ nấm màu trắng đặc trưng.",
+        "filename": "images/SR005/thoitrai_totrang.jpg",
+        "source": "tincay.com"
+        },
+        {
+        "image_id": "SR005-IMG02",
+        "description": "Vết bệnh thối đen, úng nước, lan rộng trên trái.",
+        "filename": "images/SR005/thoitrai_den.jpg",
+        "source": "agridrone.vn"
+        },
+        {
+        "image_id": "SR005-IMG03",
+        "description": "Bệnh thối trái nặng không kịp trị, lan rộng nhiều trái.",
+        "filename": "images/SR005/thoitrai.png",
+        "source": "phanbon3tot.com"
+        }
+    ],
+    "expert_notes": "Đây thực chất là một biểu hiện của bệnh do Phytophthora (như SR001). Quản lý bệnh này phải bắt đầu từ gốc rễ: quản lý nấm trong đất, thoát nước, và cắt tỉa cành tầng thấp để tránh nước mưa bắn mầm bệnh lên trái.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+    }
     },
     {
       "disease_id": "SR006",
