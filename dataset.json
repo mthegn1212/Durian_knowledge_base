@@ -13,7 +13,7 @@
     "last_updated": "2025-11-11",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "citation": "Trịnh Minh Thắng. (2024). Durian Knowledge Base [Data set]. Version 0.2.0.",
+    "citation": "Trịnh Minh Thắng. (2024). Durian Knowledge Base [Data set]. Version 0.4.0.",
     "language": "vi",
     "geographical_coverage": ["Đồng bằng sông Cửu Long", "Tây Nguyên", "Đông Nam Bộ"],
     "number_of_diseases": 6,
@@ -217,106 +217,541 @@
     }
     },
     {
-      "disease_id": "SR002",
-      "disease_name": "Bệnh Vàng Lá Thối Rễ",
-      "scientific_name": "Fusarium sp., Phytophthora sp., Pythium sp.",
-      "common_names": ["Vàng lá", "Thối rễ"],
-      "pathogen_type": "nấm",
-      "severity_level": "rất_cao",
-      "risk_season": ["mùa mưa", "đất ẩm ướt"],
-      "symptoms": {
-        "leaves": [],
-        "stem": [],
-        "roots": [],
-        "fruits": [],
-        "early_stage": "Chưa cập nhật",
-        "late_stage": "Chưa cập nhật"
-      },
-      "favorable_conditions": [],
-      "prevention_methods": {
-        "cultural": [],
-        "biological": [],
-        "chemical_prevention": []
-      },
-      "treatment_chemicals": [],
-      "diagnosis_tips": [],
-      "verified_sources": [],
-      "images": [],
-      "expert_notes": "Chưa cập nhật",
-      "data_quality": {
-        "completeness": 0.1,
-        "accuracy": 0.0,
-        "consistency": 0.0,
-        "last_verified": ""
-      }
+    "disease_id": "SR002",
+    "disease_name": "Bệnh Vàng Lá Thối Rễ",
+    "scientific_name": "Phức hợp nấm: Fusarium sp. (chủ yếu F. solani), Phytophthora sp., Pythium sp.",
+    "common_names": [
+        "Vàng lá",
+        "Thối rễ",
+        "Vàng lá thối rễ phức hợp"
+    ],
+    "pathogen_type": "nấm",
+    "severity_level": "rất_cao",
+    "risk_season": [
+        "mùa mưa",
+        "đất ẩm ướt",
+        "giai đoạn sau thu hoạch (cây suy)"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Gân lá non chuyển sang màu vàng nhạt, sau đó cả phiến lá chuyển vàng cam",
+        "Lá rụng hàng loạt, thường bắt đầu vàng từ 1-2 cành rồi lan nhanh ra toàn cây",
+        "Cây còi cọc, chồi non không phát triển, đọt non bị héo"
+        ],
+        "stem": [
+        "Thân cây có thể bị thối ở vùng cổ rễ (sát mặt đất)",
+        "Nếu nấm Phytophthora chiếm ưu thế, thân có thể bị nứt và xì mủ"
+        ],
+        "roots": [
+        "Rễ tơ (rễ cám) bị thối đen, mềm, dễ bị tuột vỏ",
+        "Rễ chính (rễ lớn) bị sọc nâu hoặc thối từng mảng, lan dần vào trong",
+        "Rễ bị bệnh có mùi hôi thối đặc trưng khi ngửi"
+        ],
+        "fruits": [
+        "Cây không thể ra hoa, đậu trái hoặc trái bị rụng non do suy kiệt"
+        ],
+        "early_stage": "Lá ở các chồi non chuyển vàng nhạt, gân lá vàng, cây sinh trưởng chậm.",
+        "late_stage": "Toàn bộ lá vàng và rụng, rễ chính bị thối đen hoàn toàn, cây không phục hồi và chết khô."
+    },
+    "favorable_conditions": [
+        "Đất ẩm ướt, ngập úng, thoát nước kém (nguyên nhân hàng đầu)",
+        "Mùa mưa kéo dài, độ ẩm đất cao",
+        "Đất bị chua, pH thấp",
+        "Vườn bón thừa phân đạm hóa học, thiếu phân hữu cơ vi sinh",
+        "Cây bị stress (sau thu hoạch, hạn hán)",
+        "Rễ bị tổn thương do tuyến trùng, côn trùng đất (sùng, rệp sáp) hoặc do canh tác (làm cỏ, xới đất) tạo vết thương cho nấm xâm nhập"
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Trồng cây trên mô cao, chọn đất thoát nước tốt",
+        "Tạo rãnh thoát nước sâu, tránh đọng nước tuyệt đối",
+        "Bón vôi bột (Dolomite) định kỳ (ít nhất 1-2 lần/năm) để nâng pH đất",
+        "Bón phân hữu cơ hoai mục, cân đối NPK, tránh lạm dụng đạm",
+        "Tránh làm tổn thương rễ khi canh tác",
+        "Tỉa cành, tạo tán thông thoáng, vệ sinh vườn"
+        ],
+        "biological": [
+        "Bắt buộc bón bổ sung nấm đối kháng Trichoderma (khi đất đủ ẩm) để ức chế nấm bệnh trong đất"
+        ],
+        "chemical_prevention": [
+        "Tưới gốc bằng thuốc gốc đồng (ví dụ: Norshield) hoặc Mancozeb vào đầu, giữa mùa mưa",
+        "Tưới phòng định kỳ bằng các hoạt chất lưu dẫn như Metalaxyl, Fosetyl-Aluminium khi vườn có nguy cơ cao"
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR002-CHEM01",
+        "name": "Ridomil Gold 68WG (hoặc Eddy 72WP)",
+        "active_ingredient": "Metalaxyl + Mancozeb",
+        "type": "Thuốc trị nấm (lưu dẫn, tiếp xúc)",
+        "application_method": "Tưới đẫm vùng rễ (sử lý đất), có thể phun lá",
+        "source": "snnmt.vinhlong.gov.vn, hoptrisummit.com, sittovietnam.com"
+        },
+        {
+        "chemical_id": "SR002-CHEM02",
+        "name": "Aliette 800WG",
+        "active_ingredient": "Fosetyl-Aluminium",
+        "type": "Thuốc trị nấm (lưu dẫn 2 chiều)",
+        "application_method": "Tưới gốc hoặc phun lá (giúp tăng đề kháng cho cây)",
+        "source": "snnmt.vinhlong.gov.vn"
+        },
+        {
+        "chemical_id": "SR002-CHEM03",
+        "name": "Norshield 86.2WG",
+        "active_ingredient": "Copper Hydroxide (Gốc Đồng)",
+        "type": "Thuốc trị nấm (tiếp xúc, sát khuẩn)",
+        "application_method": "Tưới gốc (sát khuẩn đất), bôi vào vết bệnh ở cổ rễ",
+        "source": "hoptrisummit.com"
+        },
+        {
+        "chemical_id": "SR002-CHEM04",
+        "name": "Rovral 50WP",
+        "active_ingredient": "Iprodione",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Tưới gốc (đặc trị nhóm nấm Fusarium)",
+        "source": "welofarm.vn"
+        },
+        {
+        "chemical_id": "SR002-CHEM05",
+        "name": "Previcur Energy 840SL",
+        "active_ingredient": "Propamocarb.Hcl + Fosetyl-Aluminium",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Tưới gốc (đặc trị nhóm nấm Pythium)",
+        "source": "welofarm.vn"
+        }
+    ],
+    "diagnosis_tips": [
+        "Cách chắc chắn nhất: Đào đất quanh vùng rễ tơ (rễ cám). Nếu rễ thối đen, tuột vỏ và có mùi hôi là triệu chứng điển hình.",
+        "Bệnh thường đi kèm với tuyến trùng (rễ bị u sưng, nốt sần), tuyến trùng tạo vết thương cho nấm xâm nhập.",
+        "Phân biệt với vàng lá do thiếu dinh dưỡng: Vàng lá do bệnh thường bắt đầu ở lá non, cả gân lá cũng vàng; vàng do thiếu Magie gân lá còn xanh."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Sở NN&PTNT tỉnh Vĩnh Long",
+        "url": "https://snnmt.vinhlong.gov.vn/xem-chi-tiet-tin-tuc/id/238346",
+        "document": "Bệnh vàng lá thối rễ hại sầu riêng và biện pháp phòng trừ",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Tin Cậy",
+        "url": "https://tincay.com/nguyen-nhan-sau-rieng-vang-la-thoi-re/",
+        "document": "Nguyên nhân sầu riêng vàng lá thối rễ và cách khắc phục",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Welofarm",
+        "url": "https://welofarm.vn/vang-la-thoi-re-sau-rieng-nguyen-nhan-va-cach-phong-tri",
+        "document": "Vàng lá thối rễ sầu riêng - Nguyên nhân và cách phòng trị",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Sitto Việt Nam",
+        "url": "https://sittovietnam.com/blogs/cay-sau-rieng/benh-vang-la-thoi-re",
+        "document": "Bệnh vàng lá thối rễ - Bệnh nguy hiểm trên cây sầu riêng mùa mưa",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Hợp Trí Summit",
+        "url": "https://www.hoptrisummit.com/quy-trinh-giai-phap/cay-sau-rieng/phong-tru-benh-vang-la-thoi-re-tren-cay-sau-rieng",
+        "document": "Phòng trừ bệnh vàng lá thối rễ trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR002-IMG01",
+        "description": "Triệu chứng vàng lá, bắt đầu từ lá non.",
+        "filename": "images/SR002/vangla_welofarm.webp",
+        "source": "welofarm.vn"
+        },
+        {
+        "image_id": "SR002-IMG02",
+        "description": "Lá bị vàng và rễ sầu riêng bị thối đen do nấm.",
+        "filename": "images/SR002/vangla_thoire_snnmt_vinhlong.jpg",
+        "source": "snnmt.vinhlong.gov.vn"
+        },
+        {
+        "image_id": "SR002-IMG03",
+        "description": "Cây bị bệnh nặng, rễ cái thâm đen.",
+        "filename": "images/SR002/ReCaiThoiDen.jpg",
+        "source": "hoptrisummit.com"
+        }
+    ],
+    "expert_notes": "Đây là bệnh phức hợp (do nhiều loại nấm cùng tấn công), rất khó trị dứt điểm. Nguyên nhân sâu xa thường do đất bị úng, chua và thiếu vi sinh. Phải kết hợp xử lý đất (tưới thuốc) và phục hồi rễ (bón hữu cơ, Trichoderma), không thể chỉ phun lá. Tuyến trùng thường là yếu tố mở đường cho nấm xâm nhập.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+    }
     },
     {
-      "disease_id": "SR003",
-      "disease_name": "Bệnh Cháy Lá (Chết Ngọn)",
-      "scientific_name": "Rhizoctonia solani",
-      "common_names": ["Cháy lá", "Chết đọt"],
-      "pathogen_type": "nấm",
-      "severity_level": "trung_bình",
-      "risk_season": ["mùa mưa", "độ ẩm cao"],
-      "symptoms": {
-        "leaves": [],
-        "stem": [],
-        "roots": [],
-        "fruits": [],
-        "early_stage": "Chưa cập nhật",
-        "late_stage": "Chưa cập nhật"
-      },
-      "favorable_conditions": [],
-      "prevention_methods": {
-        "cultural": [],
-        "biological": [],
-        "chemical_prevention": []
-      },
-      "treatment_chemicals": [],
-      "diagnosis_tips": [],
-      "verified_sources": [],
-      "images": [],
-      "expert_notes": "Chưa cập nhật",
-      "data_quality": {
-        "completeness": 0.1,
-        "accuracy": 0.0,
-        "consistency": 0.0,
-        "last_verified": ""
-      }
+    "disease_id": "SR003",
+    "disease_name": "Bệnh Cháy Lá (Chết Ngọn)",
+    "scientific_name": "Rhizoctonia solani (hoặc Rhizoctonia sp.)",
+    "common_names": [
+        "Cháy lá",
+        "Chết ngọn",
+        "Hiện tượng chổi chà"
+    ],
+    "pathogen_type": "nấm",
+    "severity_level": "rất_cao",
+    "risk_season": [
+        "mùa mưa",
+        "độ ẩm cao",
+        "giai đoạn hạn mặn (cây suy yếu)"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Vết bệnh ban đầu như vết bỏng nước (sũng nước) trên phiến lá",
+        "Vết bệnh lan rộng dần, chuyển màu nâu, rồi cháy khô",
+        "Vết bệnh có thể bắt đầu từ chóp lá hoặc rìa lá",
+        "Đặc trưng: Vết bệnh màu xám với hình tổ ong",
+        "Lá non bị khô và rụng trụi đọt",
+        "Các sợi nấm màu vàng nhạt có thể xuất hiện trên mô bệnh",
+        "Lá bệnh có thể kết dính với nhau bởi sợi nấm"
+        ],
+        "stem": [
+        "Chồi ngọn bị chết khô từ từ",
+        "Hiện tượng rụng trụi lá ở đọt non (gọi là 'chổi chà')",
+        "Cành và nhánh nhỏ bị còi cọc, trơ cành, chết dần",
+        "Cây có thể chết ngược từ ngọn xuống thân chính"
+        ],
+        "roots": [
+        "Không có triệu chứng trực tiếp, nhưng rễ có thể bị yếu do các nguyên nhân khởi phát (hạn mặn, phèn, lạm dụng hóa chất)"
+        ],
+        "fruits": [
+        "Không có triệu chứng trực tiếp, nhưng cây sẽ ngừng sinh trưởng, không ra hoa đậu trái"
+        ],
+        "early_stage": "Xuất hiện các đốm nhỏ sũng nước (như vết bỏng) trên lá non hoặc lá già, thường ở rìa lá hoặc chóp lá",
+        "late_stage": "Vết cháy lan rộng thành mảng lớn màu nâu hoặc xám khô, lá rụng, ngọn cây bị khô héo, trơ cành (chổi chà) và chết"
+    },
+    "favorable_conditions": [
+        "Độ ẩm cao, mùa mưa, vườn rậm rạp, cỏ nhiều",
+        "Nấm tồn tại trong đất và tàn dư lá bệnh",
+        "Vườn ít chăm sóc, trồng mật độ dày, thiếu ánh nắng",
+        "Bón phân mất cân đối (thừa đạm, thiếu trung vi lượng)",
+        "Đất chua, pH thấp (dưới 5.5)",
+        "Nguyên nhân khởi phát: Cây bị stress do hạn mặn, phèn nặng, thiếu nước",
+        "Lạm dụng Paclobutrazol làm cây suy kiệt, rối loạn sinh lý"
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Chọn đất thoát nước tốt, không ngập úng, trồng trên mô/liếp cao",
+        "Chọn cây giống khỏe, sạch bệnh",
+        "Trồng mật độ hợp lý, cắt tỉa cành (nhất là cành gần mặt đất) để vườn thông thoáng",
+        "Vệ sinh vườn, thu gom tàn dư bệnh đem tiêu hủy, quản lý cỏ dại",
+        "Bón phân cân đối, không thừa đạm, tăng cường phân hữu cơ/phân chuồng hoai",
+        "Định kỳ bón vôi để nâng pH đất (5.5-6.5)"
+        ],
+        "biological": [
+        "Bón bổ sung nấm đối kháng Trichoderma vào mùa mưa"
+        ],
+        "chemical_prevention": [
+        "Khi thời tiết thuận lợi (ẩm ướt) hoặc cây bị stress, phun phòng bằng thuốc gốc đồng (Copper oxychloride 0.25%)",
+        "Phun phòng bằng Mancozeb hoặc Propineb"
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR003-CHEM01",
+        "name": "Validacin 5SL (hoặc Vali 5SL)",
+        "active_ingredient": "Validamycin",
+        "type": "Thuốc trị nấm (kháng sinh)",
+        "application_method": "Phun lên lá hoặc tưới đất khi bệnh chớm xuất hiện",
+        "source": "tincay.com, Vipesco.com.vn"
+        },
+        {
+        "chemical_id": "SR003-CHEM02",
+        "name": "Antracol 70WP",
+        "active_ingredient": "Propineb",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun lá",
+        "source": "tincay.com, sofri.org.vn, sieuthinongnghiep.vn"
+        },
+        {
+        "chemical_id": "SR003-CHEM03",
+        "name": "Amistar Top 325SC (hoặc Vitrobin 320SC)",
+        "active_ingredient": "Azoxystrobin + Difenoconazole",
+        "type": "Thuốc trị nấm (thấm sâu, lưu dẫn)",
+        "application_method": "Phun đặc trị dạng thấm sâu khi vườn đã có triệu chứng",
+        "source": "sofri.org.vn, vincoagri.vn"
+        },
+        {
+        "chemical_id": "SR003-CHEM04",
+        "name": "Score 250EC",
+        "active_ingredient": "Difenoconazole",
+        "type": "Thuốc trị nấm (thấm sâu, lưu dẫn)",
+        "application_method": "Phun đặc trị dạng thấm sâu khi vườn đã có triệu chứng",
+        "source": "sofri.org.vn, nongnghieplamdong.com"
+        },
+        {
+        "chemical_id": "SR003-CHEM05",
+        "name": "Norshield 86.2WG (hoặc Copper Oxychloride 85WP)",
+        "active_ingredient": "Gốc Đồng (Copper)",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun phòng",
+        "source": "tincay.com, sofri.org.vn"
+        },
+        {
+        "chemical_id": "SR003-CHEM06",
+        "name": "Tanixa Bio Que",
+        "active_ingredient": "(Chế phẩm sinh học)",
+        "type": "Thuốc trừ bệnh sinh học (diệt nấm, khuẩn)",
+        "dosage": "500ml/400 lít nước",
+        "application_method": "Phun lá hoặc tưới gốc",
+        "source": "tanixa.com"
+        }
+    ],
+    "diagnosis_tips": [
+        "Phân biệt với Thán thư (Colletotrichum sp.): Vết bệnh thán thư có hình tròn đồng tâm chồng lên nhau",
+        "Phân biệt với bệnh do Phytophthora sp.: Vết bệnh do Phytophthora thường màu xám đen, bắt đầu từ giữa lá và cần ẩm độ rất cao",
+        "Bệnh cháy lá do Rhizoctonia (bệnh này) có vết bệnh đặc trưng màu xám với hình tổ ong",
+        "Hạn mặn hoặc phèn nặng thường là nguyên nhân khởi phát làm cây suy yếu, sau đó nấm Rhizoctonia mới tấn công (nguyên nhân thứ phát)"
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Viện Cây ăn quả Miền Nam (SOFRI)",
+        "url": "https://sofri.org.vn/vi/hien-tuong-chay-la-chet-ngon-tren-cay-sau-rieng-cuoi-mua-han-man.html",
+        "document": "Hiện tượng cháy lá, chết ngọn trên cây sầu riêng cuối mùa hạn mặn",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Tin Cậy",
+        "url": "https://tincay.com/chay-la-chet-ngon-tren-cay-sau-rieng/?srsltid=AfmBOooUcN5bSaFsRNblEYBPuIkRSus0b107eE12gt3pp_wShNVeH15T",
+        "document": "Cháy Lá, Chết Ngọn Trên Cây Sầu Riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Tanixa",
+        "url": "https://tanixa.com/nguyen-nhan-chay-la-sau-rieng-khi-lam-bong/",
+        "document": "Cháy lá sầu riêng: Nguyên nhân và giải pháp hiệu quả",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Nông nghiệp Lâm Đồng (TH FARM CARE)",
+        "url": "https://nongnghieplamdong.com/hoat-chat-difenoconazole.html",
+        "document": "Hoạt Chất Difenoconazole: Công Dụng, Cách Dùng (Score 250EC)",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Siêu thị nông nghiệp (Trí Văn Nông)",
+        "url": "https://sieuthinongnghiep.vn/products/antracol-70wp",
+        "document": "ANTRACOL 70WP - Tên thương mại Propineb",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR003-IMG01",
+        "description": "Triệu chứng cháy lá, vết bệnh màu xám khô từ rìa lá",
+        "filename": "images/SR003/chay-la-chet-ngon-tren-cay-sau-rieng-02.jpg",
+        "source": "tincay.com",
+        "license": "CC BY 4.0"
+        },
+        {
+        "image_id": "SR003-IMG02",
+        "description": "Cây bị bệnh chết ngọn, trơ cành (hiện tượng chổi chà)",
+        "filename": "images/SR003/chay-la-chet-ngon-tren-cay-sau-rieng-03.jpg",
+        "source": "tincay.com",
+        "license": "CC BY 4.0"
+        },
+        {
+        "image_id": "SR003-IMG03",
+        "description": "Cây chết ngọn, cháy lá hàng loạt do hạn mặn và nấm",
+        "filename": "images/SR003/chetngon_sofri_1.png",
+        "source": "sofri.org.vn",
+        "license": "CC BY 4.0"
+        }
+    ],
+    "expert_notes": "Bệnh cực kỳ nguy hiểm, có thể gây thiệt hại 50% ở vườn con. Thường có 2 nguyên nhân: 1. Do nấm Rhizoctonia tấn công trực tiếp vào mùa ẩm. 2. Do cây bị stress (hạn mặn, phèn) làm lá cháy, sau đó nấm mới xâm nhiễm (thứ phát). Khi cây đã chết ngọn nặng, cần cưa bỏ cành khô bên dưới vết bệnh 10cm để cây bung chồi mới.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.9,
+        "last_verified": "2025-11-11"
+    }
     },
     {
-      "disease_id": "SR004",
-      "disease_name": "Bệnh Thán Thư",
-      "scientific_name": "Colletotrichum gloeosporioides",
-      "common_names": ["Thán thư lá", "Thán thư bông", "Thán thư trái"],
-      "pathogen_type": "nấm",
-      "severity_level": "cao",
-      "risk_season": ["mùa mưa", "mùa khô (nếu chăm sóc kém)"],
-      "symptoms": {
-        "leaves": [],
-        "stem": [],
-        "roots": [],
-        "fruits": [],
-        "early_stage": "Chưa cập nhật",
-        "late_stage": "Chưa cập nhật"
-      },
-      "favorable_conditions": [],
-      "prevention_methods": {
-        "cultural": [],
-        "biological": [],
-        "chemical_prevention": []
-      },
-      "treatment_chemicals": [],
-      "diagnosis_tips": [],
-      "verified_sources": [],
-      "images": [],
-      "expert_notes": "Chưa cập nhật",
-      "data_quality": {
-        "completeness": 0.1,
-        "accuracy": 0.0,
-        "consistency": 0.0,
-        "last_verified": ""
-      }
+    "disease_id": "SR004",
+    "disease_name": "Bệnh Thán Thư",
+    "scientific_name": "Colletotrichum gloeosporioides (hoặc Colletotrichum sp.)",
+    "common_names": [
+        "Thán thư lá",
+        "Thán thư bông",
+        "Thán thư trái",
+        "Thối bông",
+        "Thối trái"
+    ],
+    "pathogen_type": "nấm",
+    "severity_level": "cao",
+    "risk_season": [
+        "mùa mưa",
+        "độ ẩm cao (trên 85%)",
+        "sương mù nhiều"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Trên lá non: Đốm nhỏ màu đen, tròn, úng nước. Sau đó vết bệnh khô, gây rách, thủng lá.",
+        "Trên lá già: Vết bệnh lớn, màu nâu đỏ, viền nâu sẫm. Thường có các vòng tròn đồng tâm đặc trưng.",
+        "Nhiều vết bệnh liên kết thành mảng cháy lớn, gây rụng lá hàng loạt."
+        ],
+        "stem": [
+        "Đốm nâu đen trên cuống bông và cánh hoa.",
+        "Gây khô hoa, rụng hoa hàng loạt, ảnh hưởng nghiêm trọng đến tỷ lệ đậu trái."
+        ],
+        "roots": ["Không có triệu chứng ở rễ."],
+        "fruits": [
+        "Đốm nhỏ màu nâu đen, hơi lõm xuống trên vỏ trái.",
+        "Vết bệnh lan rộng, ăn sâu vào thịt trái.",
+        "Khi trời ẩm, trên vết bệnh xuất hiện lớp bào tử nấm màu hồng (rất đặc trưng).",
+        "Gây thối trái và rụng trái, kể cả trái lớn."
+        ],
+        "early_stage": "Đốm nhỏ màu đen, úng nước (trên lá non, bông) hoặc đốm nâu đen, hơi lõm (trên trái).",
+        "late_stage": "Vết bệnh lan rộng, có vòng đồng tâm (trên lá), gây rụng lá, rụng bông, thối và rụng trái hàng loạt. Có lớp nấm màu hồng trên vết bệnh (trái)."
+    },
+    "favorable_conditions": [
+        "Độ ẩm cao (trên 85%), mưa nhiều, sương mù.",
+        "Nhiệt độ 25-30°C là lý tưởng cho nấm phát triển.",
+        "Nấm tồn tại trong tàn dư cây bệnh (lá, cành, trái rụng).",
+        "Lây lan qua gió, mưa (nước bắn tóe), côn trùng.",
+        "Vườn rậm rạp, thiếu chăm sóc, không thông thoáng, thoát nước kém.",
+        "Bón phân mất cân đối (thừa đạm, thiếu Kali, Canxi, Silic)."
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Cắt tỉa, thu gom và tiêu hủy các bộ phận bị bệnh (cành, lá, hoa, trái).",
+        "Trồng mật độ hợp lý, tạo tán thông thoáng, đảm bảo thoát nước tốt.",
+        "Bón phân cân đối NPK, tăng cường Kali, Canxi, Silic. Hạn chế bón thừa đạm."
+        ],
+        "biological": [
+        "Sử dụng chế phẩm sinh học (ví dụ: Trichoderma) để bón vào đất, tăng cường vi sinh vật đối kháng."
+        ],
+        "chemical_prevention": [
+        "Phun thuốc phòng bệnh khi thời tiết thuận lợi (ẩm, mưa), đặc biệt là giai đoạn ra hoa, đậu trái non.",
+        "Sử dụng các thuốc gốc đồng (Copper Oxychloride) hoặc Mancozeb, Propineb để phun phòng."
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR004-CHEM01",
+        "name": "Amistar Top 325SC (hoặc Amistar)",
+        "active_ingredient": "Azoxystrobin + Difenoconazole",
+        "type": "Thuốc trị nấm (lưu dẫn, nội hấp)",
+        "application_method": "Phun ướt đều cây, đặc biệt là hoa và trái non",
+        "source": "tincay.com, agrinovietnam.com"
+        },
+        {
+        "chemical_id": "SR004-CHEM02",
+        "name": "Antracol 70WP",
+        "active_ingredient": "Propineb",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Phun phòng hoặc phun khi bệnh mới xuất hiện",
+        "source": "tincay.com, agrinovietnam.com, taydojsc.com.vn"
+        },
+        {
+        "chemical_id": "SR004-CHEM03",
+        "name": "Hợp Trí Binhgosa 650WP",
+        "active_ingredient": "Hexaconazole + Propineb + Tricyclazole",
+        "type": "Thuốc trị nấm (hỗn hợp, lưu dẫn, tiếp xúc)",
+        "application_method": "Phun trị bệnh",
+        "source": "hoptrisummit.com"
+        },
+        {
+        "chemical_id": "SR004-CHEM04",
+        "name": "Envio 250SC",
+        "active_ingredient": "Azoxystrobin",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun trị bệnh",
+        "source": "hoptrisummit.com"
+        },
+        {
+        "chemical_id": "SR004-CHEM05",
+        "name": "Thio-M 70WP",
+        "active_ingredient": "Thiophanate-Methyl",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun trị bệnh",
+        "source": "hoptrisummit.com"
+        },
+        {
+        "chemical_id": "SR004-CHEM06",
+        "name": "Daconil 75WP (hoặc các thuốc gốc Carbendazim)",
+        "active_ingredient": "Carbendazim",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "application_method": "Phun trị bệnh",
+        "source": "taydojsc.com.vn, tincay.com, phanbonthuysinh.vn, sinhhocchaua.com"
+        }
+    ],
+    "diagnosis_tips": [
+        "Dấu hiệu đặc trưng trên lá già là các vết bệnh có vòng tròn đồng tâm.",
+        "Dấu hiệu đặc trưng trên lá non là các lỗ thủng (sau khi vết bệnh khô và rách).",
+        "Trên trái, dấu hiệu nhận biết rõ nhất là lớp bào tử nấm màu hồng xuất hiện trên vết thối khi trời ẩm."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Tây Đô JSC",
+        "url": "https://taydojsc.com.vn/benh-than-thu-sau-rieng-va-cach-dieu-tri/",
+        "document": "Bệnh thán thư sầu riêng và cách điều trị",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Tin Cậy",
+        "url": "https://tincay.com/benh-than-thu-tren-sau-rieng/",
+        "document": "Bệnh Thán Thư Trên Sầu Riêng Và Biện Pháp Phòng Trừ",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Phân bón Thủy Sính",
+        "url": "https://phanbonthuysinh.vn/than-thu-sau-rieng/",
+        "document": "Bệnh thán thư sầu riêng và cách phòng trị hiệu quả",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Sinh Học Châu Á",
+        "url": "https://sinhhocchaua.com/phong-tru-benh-than-thu-tren-sau-rieng/",
+        "document": "Phòng trừ bệnh thán thư trên sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Hợp Trí Summit",
+        "url": "https://www.hoptrisummit.com/quy-trinh-giai-phap/cay-sau-rieng/benh-than-thu-tren-sau-rieng",
+        "document": "Bệnh thán thư trên sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Agrino Việt Nam",
+        "url": "https://agrinovietnam.com/quan-ly-nam-than-thu-tren-bong-sau-rieng",
+        "document": "Quản lý nấm thán thư trên bông sầu riêng",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR004-IMG01",
+        "description": "Triệu chứng thán thư trên lá, vết bệnh có vòng đồng tâm.",
+        "filename": "images/SR004/thanthu_la_taydo.jpg",
+        "source": "taydojsc.com.vn"
+        },
+        {
+        "image_id": "SR004-IMG02",
+        "description": "Triệu chứng thán thư trên trái non (đốm đen, lõm).",
+        "filename": "images/SR004/benh-than-thu-tren-sau-rieng-04.jpg",
+        "source": "tincay.com"
+        },
+        {
+        "image_id": "SR004-IMG03",
+        "description": "Triệu chứng thán thư gây thối và rụng bông.",
+        "filename": "images/SR004/thanthu_rungbong.png",
+        "source": "agrinovietnam.com"
+        }
+    ],
+    "expert_notes": "Bệnh tấn công trên mọi bộ phận (lá, hoa, trái) và ở mọi giai đoạn, đặc biệt nguy hiểm cho hoa và trái non. Cần phun phòng ngừa kỹ vào giaiODE_SCHEMA_VERSION giai đoạn ra hoa, đậu trái non khi gặp điều kiện thời tiết ẩm ướt.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+    }
     },
     {
       "disease_id": "SR005",
