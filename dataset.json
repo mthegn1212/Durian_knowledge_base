@@ -929,38 +929,178 @@
     }
     },
     {
-      "disease_id": "SR006",
-      "disease_name": "Bệnh Nấm Hồng",
-      "scientific_name": "Corticium salmonicolor",
-      "common_names": ["Nấm hồng"],
-      "pathogen_type": "nấm",
-      "severity_level": "trung_bình",
-      "risk_season": ["mùa mưa", "độ ẩm cao"],
-      "symptoms": {
-        "leaves": [],
-        "stem": [],
-        "roots": [],
-        "fruits": [],
-        "early_stage": "Chưa cập nhật",
-        "late_stage": "Chưa cập nhật"
-      },
-      "favorable_conditions": [],
-      "prevention_methods": {
-        "cultural": [],
-        "biological": [],
-        "chemical_prevention": []
-      },
-      "treatment_chemicals": [],
-      "diagnosis_tips": [],
-      "verified_sources": [],
-      "images": [],
-      "expert_notes": "Chưa cập nhật",
-      "data_quality": {
-        "completeness": 0.1,
-        "accuracy": 0.0,
-        "consistency": 0.0,
-        "last_verified": ""
-      }
+    "disease_id": "SR006",
+    "disease_name": "Bệnh Nấm Hồng",
+    "scientific_name": "Corticium salmonicolor (hoặc Erythricium salmonicolor)",
+    "common_names": [
+        "Nấm hồng",
+        "Bệnh phấn hồng"
+    ],
+    "pathogen_type": "nấm",
+    "severity_level": "cao",
+    "risk_season": [
+        "mùa mưa",
+        "độ ẩm cao (trên 80%)"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Lá trên cành bị bệnh sẽ chuyển vàng, sau đó cháy khô và chết.",
+        "Lá chết không rụng ngay mà thường dính lại và treo lơ lửng trên cành bệnh."
+        ],
+        "stem": [
+        "Bệnh thường xuất hiện ở các chảng ba của cành (nơi phân cành) hoặc cành khuất trong tán.",
+        "Ban đầu, vết bệnh là một lớp tơ nấm mỏng, màu trắng hoặc xám trắng, mọc xung quanh cành.",
+        "Sau đó, lớp nấm này phát triển dày lên, chuyển sang màu hồng hoặc hồng cam (đây là giai đoạn bào tử).",
+        "Nấm tấn công vào vỏ cây, làm vỏ bị nứt, thối, phồng rộp và bong tróc.",
+        "Bệnh ngăn cản vận chuyển dinh dưỡng, làm cành bị bệnh khô, chết dần."
+        ],
+        "roots": [
+        "Không có triệu chứng ở rễ."
+        ],
+        "fruits": [
+        "Nấm có thể tấn công trái, đặc biệt là cuống trái, làm trái bị thối và rụng."
+        ],
+        "early_stage": "Xuất hiện lớp tơ nấm màu trắng, xám trắng (như bột) ở các chảng ba cành.",
+        "late_stage": "Lớp nấm chuyển sang màu hồng, vỏ cành bị nứt nẻ, cành phía trên vết bệnh bị khô, lá vàng và chết."
+    },
+    "favorable_conditions": [
+        "Độ ẩm không khí rất cao (trên 80-90%), mưa nhiều, sương mù.",
+        "Nhiệt độ 25-30°C.",
+        "Vườn trồng quá dày, rậm rạp, thiếu ánh sáng, không thông thoáng.",
+        "Vườn thoát nước kém, bón phân mất cân đối (thừa đạm, thiếu Kali)."
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Cắt tỉa cành, tạo tán cho vườn thông thoáng, có ánh nắng chiếu vào.",
+        "Vệ sinh vườn, thu gom và tiêu hủy cành, lá bị bệnh.",
+        "Thiết kế vườn có hệ thống thoát nước tốt.",
+        "Quản lý cỏ dại, tránh để vườn quá ẩm thấp.",
+        "Bón phân cân đối, tăng cường phân Kali, Canxi để cành cứng cáp."
+        ],
+        "biological": [
+        "Sử dụng các chế phẩm sinh học như nấm đối kháng Trichoderma, Chaetomium để bón hoặc phun."
+        ],
+        "chemical_prevention": [
+        "Vào đầu mùa mưa, quét vôi hoặc dung dịch Boóc-đô (Bordeaux) 1% lên thân, cành, đặc biệt là các chảng ba."
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR006-CHEM01",
+        "name": "Anvil 5SC (hoặc Saizole 5SC)",
+        "active_ingredient": "Hexaconazole",
+        "type": "Thuốc trị nấm (lưu dẫn, nội hấp)",
+        "application_method": "Cạo sạch lớp nấm, sau đó quét thuốc đậm đặc vào vết bệnh, hoặc phun phủ toàn cây.",
+        "source": "taydojsc.com.vn, phanbonthuysinh.vn, sfarm.vn, sittovietnam.com"
+        },
+        {
+        "chemical_id": "SR006-CHEM02",
+        "name": "Norshield 86.2WG (hoặc Champion, Kocide)",
+        "active_ingredient": "Gốc Đồng (Copper Hydroxide, Copper Oxychloride)",
+        "type": "Thuốc trị nấm (tiếp xúc, sát khuẩn)",
+        "application_method": "Cạo sạch lớp nấm và quét thuốc đậm đặc, hoặc phun phòng.",
+        "source": "taydojsc.com.vn, phanbonthuysinh.vn, sfarm.vn, nongduocxanh.com"
+        },
+        {
+        "chemical_id": "SR006-CHEM03",
+        "name": "Validacin 3SL (hoặc Vali 5SL)",
+        "active_ingredient": "Validamycin",
+        "type": "Thuốc trị nấm (kháng sinh, lưu dẫn)",
+        "application_method": "Quét hoặc phun vào vết bệnh sau khi cạo sạch.",
+        "source": "taydojsc.com.vn, phanbonthuysinh.vn, sfarm.vn, sittovietnam.com"
+        },
+        {
+        "chemical_id": "SR006-CHEM04",
+        "name": "Sinto 320EC",
+        "active_ingredient": "Difenoconazole + Propiconazole",
+        "type": "Thuốc trị nấm (hỗn hợp, lưu dẫn)",
+        "application_method": "Phun trị bệnh khi phát hiện",
+        "source": "sinhhocchaua.com"
+        },
+        {
+        "chemical_id": "SR006-CHEM05",
+        "name": "Monceren 250SC",
+        "active_ingredient": "Pencycuron",
+        "type": "Thuốc trị nấm",
+        "application_method": "Phun trị bệnh",
+        "source": "sittovietnam.com"
+        }
+    ],
+    "diagnosis_tips": [
+        "Dấu hiệu dễ nhận biết nhất là lớp phấn màu hồng đặc trưng trên cành, thường ở chảng ba.",
+        "Lá trên cành bị bệnh sẽ chết khô nhưng vẫn dính trên cành chứ không rụng ngay."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Tây Đô JSC",
+        "url": "https://www.taydojsc.com.vn/dieu-tri-benh-nam-hong-tren-cay-sau-rieng/",
+        "document": "Điều trị bệnh nấm hồng trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Phân bón Thủy Sính",
+        "url": "https://phanbonthuysinh.vn/benh-nam-hong-tren-cay-sau-rieng/",
+        "document": "Bệnh nấm hồng trên cây sầu riêng và cách phòng trị",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Sfarm",
+        "url": "https://sfarm.vn/benh-nam-hong-tren-cay-sau-rieng-0559/",
+        "document": "Bệnh nấm hồng trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Nông Dược Xanh",
+        "url": "https://nongduocxanh.com/blogs/tai-lieu-nong-nghiep/benh-nam-hong-tren-cay-sau-rieng-va-bien-phap-phong-tri-hieu-qua",
+        "document": "Bệnh nấm hồng trên cây sầu riêng và biện pháp phòng trị hiệu quả",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Happy Agri",
+        "url": "https://happyagri.com.vn/benh-nam-hong-tren-cay-sau-rieng/",
+        "document": "Bệnh nấm hồng trên cây sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Sitto Việt Nam",
+        "url": "https://sittovietnam.com/blogs/cay-sau-rieng/benh-nam-hong",
+        "document": "Bệnh nấm hồng sầu riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Sinh Học Châu Á",
+        "url": "https://sinhhocchaua.com/phong-tru-benh-nam-hong-hai-cay-sau-rieng/",
+        "document": "PHÒNG TRỪ BỆNH NẤM HỒNG HẠI CÂY SẦU RIÊNG",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR006-IMG01",
+        "description": "Lớp nấm màu hồng đặc trưng mọc ở chảng ba cành sầu riêng.",
+        "filename": "images/SR006/benh-nam-hong-tren-cay-sau-rieng-1-.webp",
+        "source": "sfarm.vn"
+        },
+        {
+        "image_id": "SR006-IMG02",
+        "description": "Dấu hiệu nhân biết cây bị nấm hồng - Lá có các đốm",
+        "filename": "images/SR006/dauhieu_lacay_namhong.webp",
+        "source": "happyagri.com.vn"
+        },
+        {
+        "image_id": "SR006-IMG03",
+        "description": "Biểu hiện đầu tiên của bệnh nấm hồng trên sầu riêng",
+        "filename": "images/SR006/bieuhien_dautien.jpg",
+        "source": "taydojsc.com.vn"
+        }
+    ],
+    "expert_notes": "Bệnh lây lan rất nhanh trong mùa mưa. Biện pháp quan trọng nhất là phải cạo sạch lớp nấm bệnh trên vỏ cành trước khi bôi/quét thuốc, nếu không thuốc sẽ không tiếp xúc được với mầm bệnh bên dưới.",
+    "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+    }
     }
   ]
 }
