@@ -2231,6 +2231,305 @@
         "consistency": 0.95,
         "last_verified": "2025-11-11"
       }
+    },
+    {
+      "pest_id": "P004",
+      "pest_name": "Sâu Đục Thân (Xén Tóc)",
+      "scientific_name": "Batocera spp. (Xén tóc) và các loài bọ vòi voi (weevil)",
+      "common_names": [
+        "Sâu đục thân",
+        "Xén tóc",
+        "Bọ vòi voi đục thân",
+        "Sùng đục thân"
+      ],
+      "pest_type": "Côn trùng (Ấu trùng của bọ/xén tóc)",
+      "severity_level": "rất_cao",
+      "risk_season": [
+        "Quanh năm (nhưng bùng phát mạnh vào mùa mưa, ẩm)"
+      ],
+      "symptoms": {
+        "leaves": [
+          "Lá ở cành bị đục sẽ chuyển vàng úa, héo rũ.",
+          "Cây bị nặng lá sẽ rụng dần, cành trơ trụi."
+        ],
+        "stem": [
+          "Dấu hiệu đặc trưng nhất: Xuất hiện các lỗ đục trên thân và cành.",
+          "Có bã, mùn cưa (phân sâu) màu nâu, ẩm, đùn ra từ lỗ đục.",
+          "Ấu trùng (sâu non) ăn và đục các đường hầm bên trong thân, cành.",
+          "Các đường hầm này cắt đứt mạch dẫn nhựa, làm cành bị khô, suy yếu.",
+          "Cành bị đục rỗng bên trong nên rất giòn, dễ bị gãy khi có gió lớn.",
+          "Vỏ cây tại vị trí bị đục có thể bị nứt, chảy nhựa (giống xì mủ)."
+        ],
+        "roots": [
+          "Không tấn công."
+        ],
+        "fruits": [
+          "Không tấn công trực tiếp, nhưng cây suy kiệt sẽ không thể nuôi trái."
+        ],
+        "early_stage": "Phát hiện bọ Xén Tóc (cánh cứng, râu dài) bám trên thân vào ban đêm. Thân cây có lỗ đục nhỏ, rỉ ra mùn cưa ẩm.",
+        "late_stage": "Cành, cây bị vàng lá hàng loạt, héo rũ. Các cành lớn bị gãy. Cây có thể chết hoàn toàn."
+      },
+      "favorable_conditions": [
+        "Vườn rậm rạp, ẩm độ cao, thiếu ánh sáng.",
+        "Cây sinh trưởng kém, suy yếu (do thiếu chăm sóc, sau thu hoạch).",
+        "Vườn không được cắt tỉa, dọn dẹp vệ sinh.",
+        "Bón phân mất cân đối, thừa đạm."
+      ],
+      "prevention_methods": {
+        "cultural": [
+          "Quan trọng nhất: Cắt tỉa cành, tạo tán thông thoáng, dọn cỏ dại để vườn luôn khô ráo, có ánh nắng.",
+          "Bón phân cân đối, tăng cường hữu cơ để cây khỏe mạnh, tăng sức đề kháng.",
+          "Thường xuyên thăm vườn để phát hiện sớm lỗ đục."
+        ],
+        "biological": [
+          "Biện pháp thủ công: Dùng đèn pin soi và bắt bọ Xén Tóc trưởng thành bằng tay vào ban đêm (chúng hoạt động mạnh từ tháng 4-7)."
+        ],
+        "chemical_prevention": [
+          "Quét vôi hoặc dung dịch Boóc-đô (Bordeaux) lên thân cây (cao 1-2m) vào đầu mùa mưa để ngăn bọ trưởng thành đẻ trứng.",
+          "Phun thuốc trừ sâu (Cypermethrin, Abamectin) lên toàn bộ thân, cành vào mùa Xén Tóc sinh sản để diệt bọ và trứng."
+        ]
+      },
+      "treatment_chemicals": [
+        {
+          "chemical_id": "P004-CHEM01",
+          "name": "Vibamec 1.8EC, Silsau 6.0EC, Tervigo",
+          "active_ingredient": "Abamectin, Emamectin Benzoate",
+          "type": "Thuốc trừ sâu (tiếp xúc, vị độc, thấm sâu)",
+          "application_method": "Cách 1 (Phòng): Phun ướt thân cành. Cách 2 (Trị): Dùng xi lanh (ống tiêm) bơm thuốc đậm đặc vào lỗ đục, sau đó dùng đất sét hoặc keo liền sẹo bịt lỗ đục lại.",
+          "source": "sfarm.vn, taydojsc.com.vn, drxanh.com, sinhhocchaua.com, agridrone.vn"
+        },
+        {
+          "chemical_id": "P004-CHEM02",
+          "name": "Cyperan 25EC, Sherpa 25EC",
+          "active_ingredient": "Cypermethrin, Permethrin",
+          "type": "Thuốc trừ sâu (tiếp xúc, vị độc, xông hơi)",
+          "application_method": "Tương tự như trên, dùng để phun phòng hoặc bơm vào lỗ đục.",
+          "source": "sfarm.vn, taydojsc.com.vn, drxanh.com, sinhhocchaua.com, agridrone.vn"
+        }
+      ],
+      "diagnosis_tips": [
+        "Dấu hiệu rõ nhất: Tìm các lỗ đục trên thân, cành có phân (mùn cưa) đùn ra.",
+        "Bắt gặp bọ Xén Tóc (râu dài) vào ban đêm.",
+        "Phân biệt với Sâu Đục Trái: Sâu đục thân tấn công gỗ (thân, cành), Sâu đục trái tấn công quả."
+      ],
+      "verified_sources": [
+        {
+          "source_name": "Sfarm",
+          "url": "https://sfarm.vn/sau-duc-than-sau-rieng-dau-hieu-nhan-biet-va-cach-tri-0494/",
+          "document": "Sâu đục thân sầu riêng: Dấu hiệu và cách trị",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Tây Đô JSC",
+          "url": "https://www.taydojsc.com.vn/cach-dieu-tri-sau-duc-than-cay-sau-rieng/",
+          "document": "Cách điều trị sâu đục thân cây sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Dr. Xanh",
+          "url": "https://drxanh.com/sau-duc-than-hai-sau-rieng/",
+          "document": "Sâu đục thân hại sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Sinh Học Châu Á",
+          "url": "https://sinhhocchaua.com/quan-ly-xen-toc-gay-hai-tren-vuon-sau-rieng/",
+          "document": "Quản lý xén tóc gây hại trên vườn sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "AgriDrone Việt Nam",
+          "url": "https://agridrone.vn/sau-duc-than-sau-rieng/",
+          "document": "Sâu đục thân sầu riêng và biện pháp phòng trừ",
+          "access_date": "2025-11-11"
+        }
+      ],
+      "images": [
+        {
+          "image_id": "P004-IMG01",
+          "description": "Bọ Xén Tóc trưởng thành (râu dài) bám trên thân cây.",
+          "filename": "images/P004/xentoc_truongthanh.webp",
+          "source": "drxanh.com"
+        },
+        {
+          "image_id": "P004-IMG02",
+          "description": "Lỗ đục trên thân với mùn cưa (phân sâu) đùn ra.",
+          "filename": "images/P004/lo_duc_than.webp",
+          "source": "sfarm.vn"
+        },
+        {
+          "image_id": "P004-IMG03",
+          "description": "Ấu trùng (sâu non) màu trắng, mập bên trong đường hầm.",
+          "filename": "images/P004/au_trung_duc_than.jpg",
+          "source": "agridrone.vn"
+        }
+      ],
+      "expert_notes": "Cực kỳ nguy hiểm, có thể giết chết cây. Khi phát hiện, phải dùng biện pháp tiêm thuốc trực tiếp vào lỗ đục vì sâu đã nằm sâu bên trong, phun bên ngoài không hiệu quả. Phải bịt lỗ đục lại sau khi bơm thuốc. Biện pháp phòng (cắt tỉa thông thoáng, bắt bọ) là quan trọng nhất.",
+      "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+      }
+    },
+    {
+      "pest_id": "P005",
+      "pest_name": "Nhện Đỏ",
+      "scientific_name": "Tetranychus sp.",
+      "common_names": [
+        "Nhện đỏ son",
+        "Nhện đỏ hại sầu riêng"
+      ],
+      "pest_type": "Nhện (Arachnid)",
+      "severity_level": "cao",
+      "risk_season": [
+        "Mùa khô (nắng nóng, ít mưa)",
+        "Giai đoạn lá lụa đến lá già"
+      ],
+      "symptoms": {
+        "leaves": [
+          "Nhện rất nhỏ (màu đỏ, cam, vàng), bám và chích hút dịch ở mặt dưới lá.",
+          "Mặt trên lá xuất hiện các chấm nhỏ li ti màu trắng bạc hoặc vàng nhạt.",
+          "Bệnh nặng, các chấm này liên kết lại làm cả phiến lá bị mất màu, chuyển sang màu bạc trắng hoặc vàng đồng (bị 'bạc lá').",
+          "Mặt dưới lá có thể thấy các màng tơ mỏng li ti (mạng nhện).",
+          "Lá bị hại mất khả năng quang hợp, trở nên khô, giòn, dễ rụng."
+        ],
+        "stem": [
+          "Không tấn công."
+        ],
+        "roots": [
+          "Không tấn công."
+        ],
+        "fruits": [
+          "Nhện có thể tấn công vỏ trái non, làm vỏ bị sần sùi (da cám), mất thẩm mỹ."
+        ],
+        "early_stage": "Mặt trên lá xuất hiện các chấm vàng li ti. Mặt dưới lá có các hạt nhỏ li ti màu đỏ (nhện) di chuyển.",
+        "late_stage": "Toàn bộ lá bị bạc trắng, khô giòn. Có lớp tơ mỏng ở mặt dưới. Cây suy kiệt, rụng lá."
+      },
+      "favorable_conditions": [
+        "Thời tiết nắng nóng, khô hạn, ít mưa (điều kiện bùng phát mạnh nhất).",
+        "Vườn rậm rạp, thiếu chăm sóc.",
+        "Bón phân thừa đạm, thiếu cân đối.",
+        "Lạm dụng thuốc trừ sâu hóa học phổ rộng, tiêu diệt thiên địch (bọ rùa)."
+      ],
+      "prevention_methods": {
+        "cultural": [
+          "Biện pháp quan trọng nhất: Tưới nước thường xuyên, dùng vòi phun áp lực cao phun ướt toàn bộ tán lá (đặc biệt là mặt dưới lá) để rửa trôi, tăng độ ẩm và cản trở nhện.",
+          "Cắt tỉa cành, tạo tán thông thoáng.",
+          "Bón phân cân đối, tăng cường hữu cơ cho cây khỏe."
+        ],
+        "biological": [
+          "Bảo vệ thiên địch của nhện như bọ rùa cánh cứng (Stethorus), bọ rùa 6 chấm, nhện nhỏ bắt mồi (Amblyseius)."
+        ],
+        "chemical_prevention": [
+          "Kiểm tra vườn thường xuyên (dùng kính lúp hoặc gõ lá lên giấy trắng) trong mùa khô. Phun thuốc đặc trị nhện ngay khi phát hiện mật độ 5-10 con/lá."
+        ]
+      },
+      "treatment_chemicals": [
+        {
+          "chemical_id": "P005-CHEM01",
+          "name": "Dầu khoáng (Mineral Oil)",
+          "active_ingredient": "Petroleum Oil",
+          "type": "Thuốc trị nhện (làm ngạt, phá màng tơ)",
+          "application_method": "Phun ướt đẫm mặt dưới lá, có thể pha chung với thuốc trị nhện khác. Gây ngạt, làm hỏng trứng.",
+          "source": "sinhhocchaua.com, welofarm.vn, sfarm.vn, happyagri.com.vn"
+        },
+        {
+          "chemical_id": "P005-CHEM02",
+          "name": "Ortus 5SC, Nissorun 5EC",
+          "active_ingredient": "Fenpyroximate, Hexythiazox",
+          "type": "Thuốc trị nhện (tiếp xúc, ức chế lột xác, diệt trứng, ấu trùng)",
+          "application_method": "Phun ướt đều mặt dưới lá. Phải luân phiên thuốc.",
+          "source": "hoptrisummit.com, welofarm.vn, sfarm.vn, happyagri.com.vn"
+        },
+        {
+          "chemical_id": "P005-CHEM03",
+          "name": "Vibamec 1.8EC, Silsau 6.0EC",
+          "active_ingredient": "Abamectin, Emamectin Benzoate",
+          "type": "Thuốc trị nhện (sinh học, tiếp xúc, vị độc, thấm sâu)",
+          "application_method": "Phun ướt đều mặt dưới lá. Nhện rất nhanh kháng nhóm này, nên phải luân phiên.",
+          "source": "sinhhocchaua.com, welofarm.vn, sfarm.vn"
+        },
+        {
+          "chemical_id": "P005-CHEM04",
+          "name": "Comite 73EC",
+          "active_ingredient": "Propargite",
+          "type": "Thuốc trị nhện (tiếp xúc, xông hơi)",
+          "application_method": "Phun ướt đều mặt dưới lá.",
+          "source": "sinhhocchaua.com, welofarm.vn, happyagri.com.vn"
+        },
+        {
+          "chemical_id": "P005-CHEM05",
+          "name": "Envidor 240SC, Kinalux 25EC",
+          "active_ingredient": "Spirodiclofen, Quinalphos",
+          "type": "Thuốc trị nhện (tiếp xúc, diệt trứng)",
+          "application_method": "Phun ướt đều mặt dưới lá.",
+          "source": "sfarm.vn, happyagri.com.vn"
+        }
+      ],
+      "diagnosis_tips": [
+        "Dấu hiệu rõ nhất: Lá bị mất màu, bạc trắng. Có mạng tơ mỏng ở mặt dưới lá.",
+        "Cách kiểm tra: Lấy một tờ giấy trắng đặt dưới lá, gõ nhẹ vào cành/lá. Nếu có các chấm nhỏ li ti màu đỏ/cam rơi xuống và di chuyển thì đó là nhện đỏ."
+      ],
+      "verified_sources": [
+        {
+          "source_name": "Sinh Học Châu Á",
+          "url": "https://sinhhocchaua.com/quan-ly-nhen-do-hai-sau-rieng-hieu-qua/",
+          "document": "Quản lý nhện đỏ hại sầu riêng hiệu quả",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Hợp Trí Summit",
+          "url": "https://www.hoptrisummit.com/quy-trinh-giai-phap/cay-sau-rieng/nhen-do-hai-sau-rieng",
+          "document": "Nhện đỏ hại sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Welofarm",
+          "url": "https://welofarm.vn/cach-tri-nhen-do-hai-sau-rieng-hieu-qua",
+          "document": "Cách trị nhện đỏ hại sầu riêng hiệu quả",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Sfarm",
+          "url": "https://sfarm.vn/https-sfarm-vn-la-sau-rieng-bi-nhen-do-nguyen-nhan-cach-xu-ly-0471/",
+          "document": "Lá sầu riêng bị nhện đỏ: Nguyên nhân, cách xử lý",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Happy Agri",
+          "url": "https://happyagri.com.vn/nhen-hai-sau-rieng/",
+          "document": "Nhện hại sầu riêng và các biện pháp phòng trừ",
+          "access_date": "2025-11-11"
+        }
+      ],
+      "images": [
+        {
+          "image_id": "P005-IMG01",
+          "description": "Lá sầu riêng bị nhện đỏ tấn công, chuyển sang màu bạc trắng, khô.",
+          "filename": "images/P005/nhendo_la_bac.png",
+          "source": "welofarm.vn"
+        },
+        {
+          "image_id": "P005-IMG02",
+          "description": "Nhện đỏ (rất nhỏ) và trứng ở mặt dưới lá.",
+          "filename": "images/P005/nhendo_cungcanh.webp",
+          "source": "happyagri.com.vn"
+        },
+        {
+          "image_id": "P005-IMG03",
+          "description": "Lá bị nặng, cháy khô, có thể có tơ nhện mỏng.",
+          "filename": "images/P005/nhendo_la_kho.webp",
+          "source": "welofarm.vn"
+        }
+      ],
+      "expert_notes": "Nhện đỏ là loài rất nhanh kháng thuốc. Phải phun thuốc ướt đẫm mặt dưới lá. Tuyệt đối phải luân phiên các nhóm thuốc (ví dụ: lần 1 dùng Abamectin, lần 2 dùng Propargite). Biện pháp dùng vòi nước áp lực cao phun rửa lá vào mùa khô là cực kỳ hiệu quả và rẻ tiền.",
+      "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+      }
     }
   ]
 }
