@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "name": "Durian Knowledge Base",
+    "version": "0.1.0",
+    "description": "Bộ dữ liệu tri thức về bệnh hại và biện pháp xử lý cho cây sầu riêng (Durio zibethinus)",
+    "creator": {
+      "name": "Trịnh Minh Thắng",
+      "affiliation": "Ton Duc Thang University",
+      "email": "minhthangcoder@gmail.com",
+      "orcid": "0009-0008-2147-9379"
+    },
+    "created_date": "2025-11-11",
+    "last_updated": "2025-11-11",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "citation": "Trịnh Minh Thắng. (2024). Durian Knowledge Base [Data set]. Version 0.2.0.",
+    "language": "vi",
+    "geographical_coverage": ["Đồng bằng sông Cửu Long", "Tây Nguyên", "Đông Nam Bộ"],
+    "number_of_diseases": 6,
+    "number_of_chemicals": 0,
+    "data_source": "Tổng hợp từ nguồn chính thống (Cục BVTV, Viện Cây ăn quả...)",
+    "disclaimer": "Thông tin mang tính tham khảo. Người dùng nên tham vấn chuyên gia trước khi áp dụng.",
+    "repository_url": "https://https://github.com/mthegn1212/Durian_knowledge_base"
+  },
+
+  "diseases": [
+    {
+    "disease_id": "SR001",
+    "disease_name": "Bệnh Xì Mủ Thân (Nứt Thân)",
+    "scientific_name": "Phytophthora spp. (chủ yếu là Phytophthora palmivora)",
+    "common_names": [
+        "Xì mủ",
+        "Chảy nhựa thân",
+        "Nứt thân xì mủ",
+        "Thối rễ",
+        "Thối trái"
+    ],
+    "pathogen_type": "nấm",
+    "severity_level": "rất_cao",
+    "risk_season": [
+        "mùa mưa",
+        "thời tiết ẩm ướt",
+        "đất ngập úng"
+    ],
+    "symptoms": {
+        "leaves": [
+        "Lá chuyển vàng (thường vàng từ cuống ra), vàng úa",
+        "Lá bị nhũn, khô dần và rụng hàng loạt",
+        "Cây cằn cỗi, suy yếu, cành bị khô"
+        ],
+        "stem": [
+        "Xuất hiện vết nứt, vết loang màu nâu sẫm trên vỏ thân, cành",
+        "Chảy nhựa (mủ) màu vàng nâu hoặc nâu sẫm từ vết bệnh",
+        "Cạo lớp vỏ thấy mô gỗ bên trong bị thâm đen, ướt, có mùi hôi nhẹ",
+        "Vết bệnh nặng có thể khoanh tròn quanh thân, làm nghẽn mạch dẫn và chết cây"
+        ],
+        "roots": [
+        "Rễ non bị thối màu nâu đen, giòn, dễ đứt, mất lông hút",
+        "Cổ rễ (phần sát đất) bị thối, có vết ướt đen"
+        ],
+        "fruits": [
+        "Trái rụng non, rụng hàng loạt",
+        "Vỏ trái xuất hiện đốm nâu đen, lan rộng",
+        "Trái bị thối, nứt, có thể thấy sợi nấm màu trắng bên ngoài"
+        ],
+        "early_stage": "Vết bệnh ban đầu là đốm nhỏ màu nâu nhạt hoặc vết ướt trên vỏ thân, cành.",
+        "late_stage": "Vết bệnh lan rộng, khoanh tròn quanh thân, chảy nhựa đặc quánh. Cây vàng lá, héo rũ và chết toàn bộ."
+    },
+    "favorable_conditions": [
+        "Độ ẩm cao (80-95%), mưa nhiều",
+        "Nhiệt độ 16-32°C (lý tưởng 25-30°C)",
+        "Đất thoát nước kém, bị ngập úng, trũng thấp",
+        "Vườn rậm rạp, không thông thoáng",
+        "Đất chua, pH thấp (<5.5)",
+        "Bón thừa đạm, thiếu hữu cơ và vi sinh vật đối kháng",
+        "Có vết thương cơ giới ở thân, rễ (do cắt tỉa, sâu đục)"
+    ],
+    "prevention_methods": {
+        "cultural": [
+        "Thiết kế vườn cao ráo, tạo rãnh thoát nước tốt, tránh ngập úng",
+        "Trồng mật độ vừa phải, cắt tỉa cành tạo tán thông thoáng",
+        "Vệ sinh vườn, dọn sạch cỏ dại, lá rụng, tàn dư bệnh",
+        "Bón phân cân đối (NPK), hạn chế thừa đạm, tăng cường hữu cơ",
+        "Bón vôi bột (Dolomite) định kỳ để nâng pH đất (lý tưởng 5.5–6.5)",
+        "Khử trùng dụng cụ cắt tỉa bằng cồn hoặc nước vôi"
+        ],
+        "biological": [
+        "Sử dụng nấm đối kháng như Trichoderma, Streptomyces để bón vào đất",
+        "Tăng cường bón phân hữu cơ hoai mục để thúc đẩy hệ vi sinh vật có lợi"
+        ],
+        "chemical_prevention": [
+        "Quét vôi nước hoặc dung dịch Bordeaux 1% quanh gốc (cao 0.7-1m) vào đầu và cuối mùa mưa",
+        "Phun thuốc phòng bệnh định kỳ (gốc đồng, Fosetyl-Al) trước và trong mùa mưa"
+        ]
+    },
+    "treatment_chemicals": [
+        {
+        "chemical_id": "SR001-CHEM01",
+        "name": "Mataxyl 500WP (hoặc Ridomil Gold 68WP)",
+        "active_ingredient": "Metalaxyl (có thể kết hợp Mancozeb)",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "mechanism": "Ức chế tổng hợp RNA của nấm, lưu dẫn mạnh 2 chiều.",
+        "dosage": "Theo khuyến cáo của nhà sản xuất.",
+        "application_method": "Quét trực tiếp lên vết bệnh (sau khi cạo sạch)",
+        "frequency": "Quét 1-2 lần, cách nhau 10 ngày nếu bệnh còn chảy mủ.",
+        "safety_notes": "Đeo găng tay, tránh tiếp xúc trực tiếp.",
+        "also_effective_for": [
+            "SR005"
+        ],
+        "source": "Chi cục TT&BVTV Lâm Đồng, Nongduockobeta.com"
+        },
+        {
+        "chemical_id": "SR001-CHEM02",
+        "name": "Aliette 800WG (hoặc Alimet 80WP)",
+        "active_ingredient": "Fosetyl-Aluminium",
+        "type": "Thuốc trị nấm (lưu dẫn 2 chiều)",
+        "application_method": "Bôi lên vết bệnh (sau khi cạo), Phun ướt đều thân lá, Tưới gốc",
+        "source": "Chi cục TT&BVTV Lâm Đồng, Agrifarmvn.com"
+        },
+        {
+        "chemical_id": "SR001-CHEM03",
+        "name": "Daconil 5000SC",
+        "active_ingredient": "Chlorothalonil",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "dosage": "10–15ml/bình 10–12 lít (hoặc 200ml/phuy 200 lít)",
+        "application_method": "Phun ướt đều lá và thân cây",
+        "frequency": "Phun khi bệnh mới phát sinh, lặp lại sau 5-7 ngày nếu bệnh nặng.",
+        "source": "Nongduockobeta.com"
+        },
+        {
+        "chemical_id": "SR001-CHEM04",
+        "name": "Agri-fos 400",
+        "active_ingredient": "Phosphorous acid",
+        "type": "Thuốc trị nấm (lưu dẫn)",
+        "dosage": "Pha tỷ lệ 1:1 (thuốc:nước) để tiêm",
+        "application_method": "Tiêm thân (với cây >15cm đường kính, 2-3 mũi/cây), Phun lá, Tưới gốc",
+        "source": "Chi cục TT&BVTV Lâm Đồng"
+        },
+        {
+        "chemical_id": "SR001-CHEM05",
+        "name": "Thuốc Gốc Đồng (Bordeaux, Copper Oxychloride...)",
+        "active_ingredient": "Gốc Đồng (Copper)",
+        "type": "Thuốc trị nấm (tiếp xúc)",
+        "application_method": "Quét/rửa vết bệnh sau khi cạo, Phun phòng bệnh",
+        "source": "Chi cục TT&BVTV Lâm Đồng, Agrifarmvn.com"
+        },
+        {
+        "chemical_id": "SR001-CHEM06",
+        "name": "Acrobat MZ 90/600WP",
+        "active_ingredient": "Dimethomorph + Mancozeb",
+        "type": "Thuốc trị nấm",
+        "application_method": "Phun ướt toàn bộ tán lá và tưới gốc",
+        "source": "Chi cục TT&BVTV Lâm Đồng"
+        }
+    ],
+    "diagnosis_tips": [
+        "Dùng dao cạo lớp vỏ bị bệnh, nếu thấy mô gỗ bên trong bị thâm đen, ướt, có mùi hôi nhẹ là bệnh xì mủ.",
+        "Phần gỗ bệnh có thể có màu hồng nhạt, viền gợn sóng.",
+        "Bệnh thường bắt đầu từ cổ rễ (do nấm trong đất) rồi lan dần lên thân."
+    ],
+    "verified_sources": [
+        {
+        "source_name": "Chi cục Trồng trọt và Bảo vệ thực vật tỉnh Lâm Đồng",
+        "url": "https://cattien2.lamdong.gov.vn/chi-tiet-tin-tuc/?param=quy-trinh-phong-tru-tong-hop-benh-xi-mu-hai-cay-sau-rieng",
+        "document": "Quy trình phòng trừ tổng hợp bệnh xì mủ hại cây sầu riêng (Kèm theo văn bản số /TTBVTV-BVTV ngày 20/10/2023)",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Agrifarm",
+        "url": "https://www.agrifarmvn.com/quan-ly-benh-nut-than-xi-mu-sau-rieng/",
+        "document": "Kiểm Soát Và Ngăn Chặn Bệnh Nứt Thân Xì Mủ Trên Sầu Riêng",
+        "access_date": "2025-11-11"
+        },
+        {
+        "source_name": "Nongduockobeta.com",
+        "url": "https://nongduockobeta.com/blogs/news/benh-xi-mu-tren-cay-sau-rieng-tu-nguyen-nhan-den-giai-phap-toan-dien",
+        "document": "Bệnh Xì Mủ Trên Cây Sầu Riêng – Từ Nguyên Nhân Đến Giải Pháp Toàn Diện",
+        "access_date": "2025-11-11"
+        }
+    ],
+    "images": [
+        {
+        "image_id": "SR001-IMG01",
+        "description": "Vết xì mủ điển hình trên thân, chảy nhựa màu vàng sẫm.",
+        "filename": "images/SR001/xi_mu_than.jpg",
+        "source": "Nongduockobeta.com",
+        "license": "CC BY 4.0"
+        },
+        {
+        "image_id": "SR001-IMG02",
+        "description": "Triệu chứng vàng lá, suy yếu do bệnh.",
+        "filename": "images/SR001/vang_la.jpg",
+        "source": "Nongduockobeta.com",
+        "license": "CC BY 4.0"
+        },
+        {
+        "image_id": "SR001-IMG03",
+        "description": "Vết bệnh thối ở cổ rễ sát mặt đất.",
+        "filename": "images/SR001/thoi_co_re.png",
+        "source": "Chi cục TT&BVTV Lâm Đồng",
+        "license": "CC BY 4.0"
+        },
+        {
+        "image_id": "SR001-IMG04",
+        "description": "Triệu chứng bệnh trên trái (thối, có nấm trắng).",
+        "filename": "images/SR001/thoi_qua_nam_trang.jpg",
+        "source": "Nongduockobeta.com",
+        "license": "CC BY 4.0"
+        }
+    ],
+    "expert_notes": "Đây là 'sát thủ thầm lặng' làm suy kiệt cây. Sai lầm phổ biến là chỉ xử lý vết bệnh trên thân mà quên xử lý nấm trong đất (gốc và rễ). Tuyệt đối không dùng các hỗn hợp dân gian như vôi + dầu nhớt vì sẽ gây cháy vỏ, làm bệnh nặng hơn.",
+    "data_quality": {
+        "completeness": 0.95,
+        "accuracy": 0.95,
+        "consistency": 0.9,
+        "last_verified": "2025-11-11"
+    }
+    },
+    {
+      "disease_id": "SR002",
+      "disease_name": "Bệnh Vàng Lá Thối Rễ",
+      "scientific_name": "Fusarium sp., Phytophthora sp., Pythium sp.",
+      "common_names": ["Vàng lá", "Thối rễ"],
+      "pathogen_type": "nấm",
+      "severity_level": "rất_cao",
+      "risk_season": ["mùa mưa", "đất ẩm ướt"],
+      "symptoms": {
+        "leaves": [],
+        "stem": [],
+        "roots": [],
+        "fruits": [],
+        "early_stage": "Chưa cập nhật",
+        "late_stage": "Chưa cập nhật"
+      },
+      "favorable_conditions": [],
+      "prevention_methods": {
+        "cultural": [],
+        "biological": [],
+        "chemical_prevention": []
+      },
+      "treatment_chemicals": [],
+      "diagnosis_tips": [],
+      "verified_sources": [],
+      "images": [],
+      "expert_notes": "Chưa cập nhật",
+      "data_quality": {
+        "completeness": 0.1,
+        "accuracy": 0.0,
+        "consistency": 0.0,
+        "last_verified": ""
+      }
+    },
+    {
+      "disease_id": "SR003",
+      "disease_name": "Bệnh Cháy Lá (Chết Ngọn)",
+      "scientific_name": "Rhizoctonia solani",
+      "common_names": ["Cháy lá", "Chết đọt"],
+      "pathogen_type": "nấm",
+      "severity_level": "trung_bình",
+      "risk_season": ["mùa mưa", "độ ẩm cao"],
+      "symptoms": {
+        "leaves": [],
+        "stem": [],
+        "roots": [],
+        "fruits": [],
+        "early_stage": "Chưa cập nhật",
+        "late_stage": "Chưa cập nhật"
+      },
+      "favorable_conditions": [],
+      "prevention_methods": {
+        "cultural": [],
+        "biological": [],
+        "chemical_prevention": []
+      },
+      "treatment_chemicals": [],
+      "diagnosis_tips": [],
+      "verified_sources": [],
+      "images": [],
+      "expert_notes": "Chưa cập nhật",
+      "data_quality": {
+        "completeness": 0.1,
+        "accuracy": 0.0,
+        "consistency": 0.0,
+        "last_verified": ""
+      }
+    },
+    {
+      "disease_id": "SR004",
+      "disease_name": "Bệnh Thán Thư",
+      "scientific_name": "Colletotrichum gloeosporioides",
+      "common_names": ["Thán thư lá", "Thán thư bông", "Thán thư trái"],
+      "pathogen_type": "nấm",
+      "severity_level": "cao",
+      "risk_season": ["mùa mưa", "mùa khô (nếu chăm sóc kém)"],
+      "symptoms": {
+        "leaves": [],
+        "stem": [],
+        "roots": [],
+        "fruits": [],
+        "early_stage": "Chưa cập nhật",
+        "late_stage": "Chưa cập nhật"
+      },
+      "favorable_conditions": [],
+      "prevention_methods": {
+        "cultural": [],
+        "biological": [],
+        "chemical_prevention": []
+      },
+      "treatment_chemicals": [],
+      "diagnosis_tips": [],
+      "verified_sources": [],
+      "images": [],
+      "expert_notes": "Chưa cập nhật",
+      "data_quality": {
+        "completeness": 0.1,
+        "accuracy": 0.0,
+        "consistency": 0.0,
+        "last_verified": ""
+      }
+    },
+    {
+      "disease_id": "SR005",
+      "disease_name": "Bệnh Thối Trái",
+      "scientific_name": "Phytophthora sp.",
+      "common_names": ["Thối đít trái", "Thối cuống trái"],
+      "pathogen_type": "nấm",
+      "severity_level": "cao",
+      "risk_season": ["mùa mưa", "gần thu hoạch"],
+      "symptoms": {
+        "leaves": [],
+        "stem": [],
+        "roots": [],
+        "fruits": [],
+        "early_stage": "Chưa cập nhật",
+        "late_stage": "Chưa cập nhật"
+      },
+      "favorable_conditions": [],
+      "prevention_methods": {
+        "cultural": [],
+        "biological": [],
+        "chemical_prevention": []
+      },
+      "treatment_chemicals": [],
+      "diagnosis_tips": [],
+      "verified_sources": [],
+      "images": [],
+      "expert_notes": "Chưa cập nhật",
+      "data_quality": {
+        "completeness": 0.1,
+        "accuracy": 0.0,
+        "consistency": 0.0,
+        "last_verified": ""
+      }
+    },
+    {
+      "disease_id": "SR006",
+      "disease_name": "Bệnh Nấm Hồng",
+      "scientific_name": "Corticium salmonicolor",
+      "common_names": ["Nấm hồng"],
+      "pathogen_type": "nấm",
+      "severity_level": "trung_bình",
+      "risk_season": ["mùa mưa", "độ ẩm cao"],
+      "symptoms": {
+        "leaves": [],
+        "stem": [],
+        "roots": [],
+        "fruits": [],
+        "early_stage": "Chưa cập nhật",
+        "late_stage": "Chưa cập nhật"
+      },
+      "favorable_conditions": [],
+      "prevention_methods": {
+        "cultural": [],
+        "biological": [],
+        "chemical_prevention": []
+      },
+      "treatment_chemicals": [],
+      "diagnosis_tips": [],
+      "verified_sources": [],
+      "images": [],
+      "expert_notes": "Chưa cập nhật",
+      "data_quality": {
+        "completeness": 0.1,
+        "accuracy": 0.0,
+        "consistency": 0.0,
+        "last_verified": ""
+      }
+    }
+  ]
+}
