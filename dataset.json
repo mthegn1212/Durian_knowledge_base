@@ -1,10 +1,10 @@
 {
   "metadata": {
     "name": "Durian Knowledge Base",
-    "version": "0.1.0",
-    "description": "Bộ dữ liệu tri thức về bệnh hại và biện pháp xử lý cho cây sầu riêng (Durio zibethinus)",
+    "version": "0.16.1",
+    "description": "Bộ dữ liệu tri thức về bệnh hại, sâu, côn trùng gây hại và biện pháp xử lý cho cây sầu riêng.",
     "creator": {
-      "name": "Trịnh Minh Thắng",
+      "name": "Trinh Minh Thang",
       "affiliation": "Ton Duc Thang University",
       "email": "minhthangcoder@gmail.com",
       "orcid": "0009-0008-2147-9379"
@@ -13,14 +13,15 @@
     "last_updated": "2025-11-11",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "citation": "Trịnh Minh Thắng. (2024). Durian Knowledge Base [Data set]. Version 0.4.1.",
+    "citation": "Trinh Minh Thang. (2025). Durian Knowledge Base [Data set]. Version 0.16.1.",
     "language": "vi",
-    "geographical_coverage": ["Đồng bằng sông Cửu Long", "Tây Nguyên", "Đông Nam Bộ"],
-    "number_of_diseases": 6,
-    "number_of_chemicals": 0,
+    "geographical_coverage": ["Đồng bằng sông Cửu Long", "Tây Nguyên", "Đông Nam Bộ", "Miền Bắc"],
+    "number_of_diseases": 10,
+    "number_of_pests": 10,
+    "number_of_chemicals": 50,
     "data_source": "Tổng hợp từ nguồn chính thống (Cục BVTV, Viện Cây ăn quả...)",
     "disclaimer": "Thông tin mang tính tham khảo. Người dùng nên tham vấn chuyên gia trước khi áp dụng.",
-    "repository_url": "https://https://github.com/mthegn1212/Durian_knowledge_base"
+    "repository_url": "https://github.com/mthegn1212/Durian_knowledge_base"
   },
 
   "diseases": [
@@ -81,7 +82,7 @@
         "Trồng mật độ vừa phải, cắt tỉa cành tạo tán thông thoáng",
         "Vệ sinh vườn, dọn sạch cỏ dại, lá rụng, tàn dư bệnh",
         "Bón phân cân đối (NPK), hạn chế thừa đạm, tăng cường hữu cơ",
-        "Bón vôi bột (Dolomite) định kỳ để nâng pH đất (lý tưởng 5.5–6.5)",
+        "Bón vôi bột (Dolomite) định kỳ để nâng pH đất (lý tưởng 5.5-6.5)",
         "Khử trùng dụng cụ cắt tỉa bằng cồn hoặc nước vôi"
         ],
         "biological": [
@@ -122,7 +123,7 @@
         "name": "Daconil 5000SC",
         "active_ingredient": "Chlorothalonil",
         "type": "Thuốc trị nấm (tiếp xúc)",
-        "dosage": "10–15ml/bình 10–12 lít (hoặc 200ml/phuy 200 lít)",
+        "dosage": "10-15ml/bình 10-12 lít (hoặc 200ml/phuy 200 lít)",
         "application_method": "Phun ướt đều lá và thân cây",
         "frequency": "Phun khi bệnh mới phát sinh, lặp lại sau 5-7 ngày nếu bệnh nặng.",
         "source": "Nongduockobeta.com"
@@ -174,7 +175,7 @@
         {
         "source_name": "Nongduockobeta.com",
         "url": "https://nongduockobeta.com/blogs/news/benh-xi-mu-tren-cay-sau-rieng-tu-nguyen-nhan-den-giai-phap-toan-dien",
-        "document": "Bệnh Xì Mủ Trên Cây Sầu Riêng – Từ Nguyên Nhân Đến Giải Pháp Toàn Diện",
+        "document": "Bệnh Xì Mủ Trên Cây Sầu Riêng - Từ Nguyên Nhân Đến Giải Pháp Toàn Diện",
         "access_date": "2025-11-11"
         }
     ],
@@ -745,7 +746,7 @@
         "source": "agrinovietnam.com"
         }
     ],
-    "expert_notes": "Bệnh tấn công trên mọi bộ phận (lá, hoa, trái) và ở mọi giai đoạn, đặc biệt nguy hiểm cho hoa và trái non. Cần phun phòng ngừa kỹ vào giaiODE_SCHEMA_VERSION giai đoạn ra hoa, đậu trái non khi gặp điều kiện thời tiết ẩm ướt.",
+    "expert_notes": "Bệnh tấn công trên mọi bộ phận (lá, hoa, trái) và ở mọi giai đoạn, đặc biệt nguy hiểm cho hoa và trái non. Cần phun phòng ngừa kỹ vào giai đoạn ra hoa, đậu trái non khi gặp điều kiện thời tiết ẩm ướt.",
     "data_quality": {
         "completeness": 0.98,
         "accuracy": 0.95,
@@ -860,7 +861,7 @@
     "diagnosis_tips": [
         "Dấu hiệu đặc trưng nhất là lớp tơ nấm màu trắng mọc trên vết thối khi trời ẩm.",
         "Bệnh lây lan rất nhanh, từ một đốm nhỏ có thể thối cả trái chỉ trong 3-5 ngày.",
-        "Cần phân biệt với bệnh Thán Thư (SR004): Thán thư có đốm bào tử màu hồng, vết bệnh lõm, vòng đồng tâm; còn bệnh này (Phytophthora) có tơ nấm màu trắng và vết úng nước lan rộng, không có vòng."
+        "Cần phân biệt với bệnh Thán Thư: Thán thư có đốm bào tử màu hồng, vết bệnh lõm, vòng đồng tâm; còn bệnh này (Phytophthora) có tơ nấm màu trắng và vết úng nước lan rộng, không có vòng."
     ],
     "verified_sources": [
         {
@@ -920,7 +921,7 @@
         "source": "phanbon3tot.com"
         }
     ],
-    "expert_notes": "Đây thực chất là một biểu hiện của bệnh do Phytophthora (như SR001). Quản lý bệnh này phải bắt đầu từ gốc rễ: quản lý nấm trong đất, thoát nước, và cắt tỉa cành tầng thấp để tránh nước mưa bắn mầm bệnh lên trái.",
+    "expert_notes": "Đây thực chất là một biểu hiện của bệnh do Phytophthora. Quản lý bệnh này phải bắt đầu từ gốc rễ: quản lý nấm trong đất, thoát nước, và cắt tỉa cành tầng thấp để tránh nước mưa bắn mầm bệnh lên trái.",
     "data_quality": {
         "completeness": 0.98,
         "accuracy": 0.95,
@@ -1239,7 +1240,7 @@
         },
         {
         "source_name": "Công Nghệ Cao Âu Mỹ",
-        "url": "httpsf://congnghecaoaumy.vn/kien-thuc/69-benh-dom-la-sau-rieng-nguyen-nhan-dau-hieu-va-cach-phong-tri",
+        "url": "https://congnghecaoaumy.vn/kien-thuc/69-benh-dom-la-sau-rieng-nguyen-nhan-dau-hieu-va-cach-phong-tri",
         "document": "Bệnh đốm lá sầu riêng: Nguyên nhân, dấu hiệu và cách phòng trị",
         "access_date": "2025-11-11"
         }
@@ -1369,7 +1370,7 @@
     ],
     "diagnosis_tips": [
         "Dấu hiệu đặc trưng là lớp lông nhung mịn, màu cam gạch hoặc đỏ nâu.",
-        "Khác với Nấm Hồng (SR006) có màu hồng phấn, Đốm Rong có màu cam/đỏ gạch.",
+        "Khác với Nấm Hồng có màu hồng phấn, Đốm Rong có màu cam/đỏ gạch.",
         "Bệnh thường xuất hiện ở mặt dưới cành hoặc nơi khuất ánh sáng trước."
     ],
     "verified_sources": [
@@ -1424,7 +1425,7 @@
         "source": "anphatnong.com.vn"
         }
     ],
-    "expert_notes": "Bệnh này là 'bệnh cơ hội', chỉ tấn công khi cây yếu, vườn rậm rạp. Nguy hiểm lớn nhất của Đốm Rong là làm nứt vỏ, tạo vết thương cho nấm Phytophthora (SR001) và các nấm khác xâm nhập gây xì mủ, thối thân.",
+    "expert_notes": "Bệnh này là 'bệnh cơ hội', chỉ tấn công khi cây yếu, vườn rậm rạp. Nguy hiểm lớn nhất của Đốm Rong là làm nứt vỏ, tạo vết thương cho nấm Phytophthora và các nấm khác xâm nhập gây xì mủ, thối thân.",
     "data_quality": {
         "completeness": 0.98,
         "accuracy": 0.95,
@@ -1575,7 +1576,7 @@
         "source": "tincay.com"
         }
     ],
-    "expert_notes": "Phải nhớ: Đây là bệnh 'thứ cấp'. Nấm bồ hóng vô hại, nó chỉ ăn dịch mật. Kẻ thù thực sự là côn trùng chích hút. Phải diệt côn trùng (Bước 1) thì bệnh mới hết. Nếu chỉ phun thuốc nấm (Bước 2) mà không diệt côn trùng, bệnh sẽ quay lại 100%.",
+    "expert_notes": "Phải nhớ: Đây là bệnh 'thứ cấp'. Nấm bồ hóng vô hại, nó chỉ ăn dịch mật. Kẻ thù thực sự là côn trùng chích hút. Phải diệt côn trùng thì bệnh mới hết. Nếu chỉ phun thuốc nấm mà không diệt côn trùng, bệnh sẽ quay lại 100%.",
     "data_quality": {
         "completeness": 0.98,
         "accuracy": 0.95,
@@ -1933,7 +1934,7 @@
       "symptoms": {
         "leaves": [
           "Rệp bám ở mặt dưới lá, kẽ lá, chích hút nhựa làm lá vàng, xoăn, còi cọc.",
-          "Chất thải (dịch mật) của rệp tạo điều kiện cho Nấm Bồ Hóng (SR009) phát triển, bám đen trên lá."
+          "Chất thải (dịch mật) của rệp tạo điều kiện cho Nấm Bồ Hóng phát triển, bám đen trên lá."
         ],
         "stem": [
           "Rệp bám ở kẽ cành, chảng ba, gây còi cọc."
@@ -1946,16 +1947,16 @@
         "roots": [
           "Một loài rệp sáp (rệp sáp gốc) sống dưới đất, bám vào rễ non.",
           "Chích hút làm rễ bị sưng, biến dạng, thối.",
-          "Cây bị tấn công ở rễ sẽ có triệu chứng vàng lá, rụng lá (giống Bệnh Vàng Lá Thối Rễ - SR002)."
+          "Cây bị tấn công ở rễ sẽ có triệu chứng vàng lá, rụng lá (giống Bệnh Vàng Lá Thối Rễ)."
         ],
         "fruits": [
           "Đây là nơi gây hại kinh tế nặng nhất.",
           "Rệp bám dày đặc ở cuống trái, kẽ gai, hút nhựa làm trái phát triển còi cọc, biến dạng, vỏ sần sùi (gọi là 'da lu').",
-          "Chất thải của rệp làm Nấm Bồ Hóng (SR009) mọc lên, bám đen vỏ trái, làm mất giá trị thương phẩm.",
+          "Chất thải của rệp làm Nấm Bồ Hóng mọc lên, bám đen vỏ trái, làm mất giá trị thương phẩm.",
           "Gây rụng trái non hàng loạt."
         ],
         "early_stage": "Thấy các cụm phấn trắng nhỏ ở kẽ lá, cuống hoa. Thấy kiến di chuyển nhiều trên cây.",
-        "late_stage": "Rệp đóng thành mảng trắng dày đặc. Toàn bộ lá, cành, trái bị phủ lớp Bồ Hóng đen (SR009). Cây suy kiệt, trái biến dạng, rụng."
+        "late_stage": "Rệp đóng thành mảng trắng dày đặc. Toàn bộ lá, cành, trái bị phủ lớp Bồ Hóng đen. Cây suy kiệt, trái biến dạng, rụng."
       },
       "favorable_conditions": [
         "Thời tiết khô, nắng nóng, ít mưa (mùa khô) là điều kiện lý tưởng.",
@@ -2016,7 +2017,7 @@
       ],
       "diagnosis_tips": [
         "Dấu hiệu rõ nhất: Các cụm phấn trắng bám ở kẽ lá, chùm hoa, kẽ gai của trái.",
-        "Luôn luôn đi kèm với sự xuất hiện của KIẾN (đem rệp đi) và NẤM BỒ HÓNG (SR009).",
+        "Luôn luôn đi kèm với sự xuất hiện của KIẾN (đem rệp đi) và NẤM BỒ HÓNG.",
         "Nếu cây vàng lá không rõ nguyên nhân, phải đào kiểm tra rễ để phát hiện rệp sáp gốc."
       ],
       "verified_sources": [
@@ -2131,7 +2132,7 @@
           "Bảo vệ các loài thiên địch tự nhiên như ong ký sinh."
         ],
         "chemical_prevention": [
-          "Bắt buộc phun thuốc trừ sâu định kỳ (7-10 ngày/lần) ngay từ giai đoạn trái non (khi hoa rụng, trái bắt đầu hình thành) để diệt trứng và sâu non mới nở *trước khi* chúng kịp đục vào trái."
+          "Bắt buộc phun thuốc trừ sâu định kỳ (7-10 ngày/lần) ngay từ giai đoạn trái non (khi hoa rụng, trái bắt đầu hình thành) để diệt trứng và sâu non mới nở trước khi chúng kịp đục vào trái."
         ]
       },
       "treatment_chemicals": [
@@ -2224,7 +2225,7 @@
           "source": "taydojsc.com.vn"
         }
       ],
-      "expert_notes": "Đây là đối tượng 'đã đục vào là thua'. Mọi biện pháp phun thuốc đều chỉ có tác dụng *trước khi* sâu chui vào trái. Khi sâu đã vào trong, thuốc không còn tác dụng. Biện pháp hiệu quả nhất, an toàn nhất là **bao trái**. Phải phun thuốc định kỳ 7-10 ngày/lần từ khi trái bằng quả trứng gà đến khi bao trái.",
+      "expert_notes": "Đây là đối tượng 'đã đục vào là thua'. Mọi biện pháp phun thuốc đều chỉ có tác dụng trước khi sâu chui vào trái. Khi sâu đã vào trong, thuốc không còn tác dụng. Biện pháp hiệu quả nhất, an toàn nhất là bao trái. Phải phun thuốc định kỳ 7-10 ngày/lần từ khi trái bằng quả trứng gà đến khi bao trái.",
       "data_quality": {
         "completeness": 0.98,
         "accuracy": 0.95,
@@ -2492,7 +2493,7 @@
         },
         {
           "source_name": "Sfarm",
-          "url": "https://sfarm.vn/https-sfarm-vn-la-sau-rieng-bi-nhen-do-nguyen-nhan-cach-xu-ly-0471/",
+          "url": "https://sfarm.vn/la-sau-rieng-bi-nhen-do-nguyen-nhan-cach-xu-ly-0471/",
           "document": "Lá sầu riêng bị nhện đỏ: Nguyên nhân, cách xử lý",
           "access_date": "2025-11-11"
         },
@@ -2560,13 +2561,13 @@
           "Đây là triệu chứng chính, phải đào lên mới thấy.",
           "Rễ tơ (rễ cám) bị sưng lên, tạo thành các nốt u, bướu, nốt sần (gọi là 'galls').",
           "Rễ bị biến dạng, thâm đen, hoại tử.",
-          "Các vết chích hút của tuyến trùng tạo ra hàng ngàn vết thương hở, là cửa ngõ cho nấm (Phytophthora, Fusarium) xâm nhập, gây Bệnh Vàng Lá Thối Rễ (SR002)."
+          "Các vết chích hút của tuyến trùng tạo ra hàng ngàn vết thương hở, là cửa ngõ cho nấm (Phytophthora, Fusarium) xâm nhập, gây Bệnh Vàng Lá Thối Rễ."
         ],
         "fruits": [
           "Không tấn công trực tiếp, nhưng cây suy kiệt sẽ không thể nuôi trái, gây rụng trái."
         ],
         "early_stage": "Cây sinh trưởng chậm, lá hơi vàng, héo nhẹ vào buổi trưa nắng.",
-        "late_stage": "Rễ bị u sần, thối đen nặng. Cây vàng lá, rụng lá hàng loạt (giống triệu chứng SR002) và chết."
+        "late_stage": "Rễ bị u sần, thối đen nặng. Cây vàng lá, rụng lá hàng loạt và chết."
       },
       "favorable_conditions": [
         "Đất ẩm ướt (mùa mưa, tưới nhiều) giúp tuyến trùng dễ dàng di chuyển trong đất.",
@@ -2673,7 +2674,7 @@
           "source": "nguyenlieusinhhoc.com"
         }
       ],
-      "expert_notes": "Đây là 'kẻ mở đường' nguy hiểm nhất, là nguyên nhân gốc rễ của Bệnh Vàng Lá Thối Rễ. Tuyến trùng chích hút tạo hàng ngàn vết thương hở ở rễ, giúp nấm Fusarium và Phytophthora xâm nhập. Vì vậy, phác đồ điều trị *bắt buộc* phải dùng 1 thuốc trị tuyến trùng + 1 thuốc trị nấm (như Metalaxyl/Aliette).",
+      "expert_notes": "Đây là 'kẻ mở đường' nguy hiểm nhất, là nguyên nhân gốc rễ của Bệnh Vàng Lá Thối Rễ. Tuyến trùng chích hút tạo hàng ngàn vết thương hở ở rễ, giúp nấm Fusarium và Phytophthora xâm nhập. Vì vậy, phác đồ điều trị bắt buộc phải dùng 1 thuốc trị tuyến trùng + 1 thuốc trị nấm (như Metalaxyl/Aliette).",
       "data_quality": {
         "completeness": 0.98,
         "accuracy": 0.95,

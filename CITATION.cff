@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Durian Knowledge Base"
+message: "If you use this dataset in your research or project, please cite it."
+type: dataset
+version: 0.16.1
+authors:
+  - family-names: "Trinh"
+    given-names: "Minh Thang"
+    affiliation: "Ton Duc Thang University"
+    orcid: "https://orcid.org/0009-0008-2147-9379"
+repository-code: "https://github.com/mthegn1212/Durian_knowledge_base"
+url: "https://github.com/mthegn1212/Durian_knowledge_base"
+license: CC-BY-4.0
+keywords:
+  - "durian"
+  - "durian disease"
+  - "plant disease"
+  - "agriculture"
+  - "dataset"
+  - "vietnam"
+  - "sầu riêng"
+  - "bệnh cây trồng"
+date-released: 2025-11-11
