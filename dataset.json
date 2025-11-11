@@ -1914,6 +1914,170 @@
         "consistency": 0.95,
         "last_verified": "2025-11-11"
       }
+    },
+    {
+      "pest_id": "P002",
+      "pest_name": "Rệp Sáp",
+      "scientific_name": "Planococcus sp., Pseudococcus sp., Dysmicoccus sp.",
+      "common_names": [
+        "Rệp sáp phấn",
+        "Rệp sáp bông",
+        "Rệp sáp gốc"
+      ],
+      "pest_type": "Côn trùng chích hút",
+      "severity_level": "rất_cao",
+      "risk_season": [
+        "Mùa khô (bùng phát mạnh nhất)",
+        "Giai đoạn cây ra hoa, đậu trái non"
+      ],
+      "symptoms": {
+        "leaves": [
+          "Rệp bám ở mặt dưới lá, kẽ lá, chích hút nhựa làm lá vàng, xoăn, còi cọc.",
+          "Chất thải (dịch mật) của rệp tạo điều kiện cho Nấm Bồ Hóng (SR009) phát triển, bám đen trên lá."
+        ],
+        "stem": [
+          "Rệp bám ở kẽ cành, chảng ba, gây còi cọc."
+        ],
+        "flowers": [
+          "Tấn công nghiêm trọng vào giai đoạn cây đang xổ nhụy (ra hoa).",
+          "Rệp bám vào chùm hoa, cuống hoa, hút nhựa làm hoa bị khô, héo.",
+          "Gây rụng hoa hàng loạt, giảm tỷ lệ đậu trái nghiêm trọng."
+        ],
+        "roots": [
+          "Một loài rệp sáp (rệp sáp gốc) sống dưới đất, bám vào rễ non.",
+          "Chích hút làm rễ bị sưng, biến dạng, thối.",
+          "Cây bị tấn công ở rễ sẽ có triệu chứng vàng lá, rụng lá (giống Bệnh Vàng Lá Thối Rễ - SR002)."
+        ],
+        "fruits": [
+          "Đây là nơi gây hại kinh tế nặng nhất.",
+          "Rệp bám dày đặc ở cuống trái, kẽ gai, hút nhựa làm trái phát triển còi cọc, biến dạng, vỏ sần sùi (gọi là 'da lu').",
+          "Chất thải của rệp làm Nấm Bồ Hóng (SR009) mọc lên, bám đen vỏ trái, làm mất giá trị thương phẩm.",
+          "Gây rụng trái non hàng loạt."
+        ],
+        "early_stage": "Thấy các cụm phấn trắng nhỏ ở kẽ lá, cuống hoa. Thấy kiến di chuyển nhiều trên cây.",
+        "late_stage": "Rệp đóng thành mảng trắng dày đặc. Toàn bộ lá, cành, trái bị phủ lớp Bồ Hóng đen (SR009). Cây suy kiệt, trái biến dạng, rụng."
+      },
+      "favorable_conditions": [
+        "Thời tiết khô, nắng nóng, ít mưa (mùa khô) là điều kiện lý tưởng.",
+        "Sự xuất hiện của KIẾN: Kiến cộng sinh với rệp. Kiến bảo vệ rệp khỏi thiên địch và tha rệp đi khắp nơi, đổi lại kiến ăn dịch mật do rệp tiết ra.",
+        "Vườn rậm rạp, thiếu thông thoáng, nhiều cỏ dại (nơi trú ẩn).",
+        "Giai đoạn cây ra hoa, trái non (nguồn thức ăn dồi dào)."
+      ],
+      "prevention_methods": {
+        "cultural": [
+          "Quan trọng nhất: Cắt tỉa cành, tạo tán thông thoáng, đặc biệt sau thu hoạch.",
+          "Quản lý cỏ dại trong vườn để cắt nơi trú ẩn.",
+          "Tưới nước đủ ẩm vào mùa khô để hạn chế rệp bùng phát.",
+          "Bón phân cân đối, không lạm dụng đạm."
+        ],
+        "biological": [
+          "Bảo vệ các loài thiên địch của rệp sáp như bọ rùa, ong ký sinh.",
+          "Sử dụng nấm ký sinh (nấm xanh, nấm trắng) phun xịt.",
+          "Biện pháp quan trọng: Diệt kiến (dùng bẫy, thuốc diệt kiến) để phá vỡ vòng cộng sinh."
+        ],
+        "chemical_prevention": [
+          "Kiểm tra vườn thường xuyên, phun thuốc ngay khi phát hiện rệp ở mật độ thấp.",
+          "Phun thuốc vào giai đoạn trước khi ra hoa và sau khi đậu trái non."
+        ]
+      },
+      "treatment_chemicals": [
+        {
+          "chemical_id": "P002-CHEM01",
+          "name": "Dầu khoáng (Mineral Oil)",
+          "active_ingredient": "Petroleum Oil",
+          "type": "Thuốc trừ sâu (làm ngạt, phá lớp sáp)",
+          "application_method": "Pha chung với thuốc trừ sâu khác để làm tan lớp sáp phấn, tăng hiệu quả của thuốc.",
+          "source": "taydojsc.com.vn, sinhhocchaua.com, phanbonthuysinh.vn"
+        },
+        {
+          "chemical_id": "P002-CHEM02",
+          "name": "Mospilan 3EC, Confidor 200SL",
+          "active_ingredient": "Acetamiprid, Imidacloprid, Thiamethoxam",
+          "type": "Thuốc trừ sâu (lưu dẫn, nội hấp)",
+          "application_method": "Phun kỹ vào nơi rệp bám. Rất hiệu quả vì thuốc lưu dẫn trong cây.",
+          "source": "taydojsc.com.vn, drxanh.com, sinhhocchaua.com, phanbonthuysinh.vn"
+        },
+        {
+          "chemical_id": "P002-CHEM03",
+          "name": "Supracide 40EC, Map Permethrin 50EC",
+          "active_ingredient": "Methidathion, Permethrin, Cypermethrin",
+          "type": "Thuốc trừ sâu (tiếp xúc, vị độc, xông hơi)",
+          "application_method": "Phun ướt đẫm, đặc biệt hiệu quả khi phun vào chiều mát.",
+          "source": "drxanh.com, phanbonthuysinh.vn"
+        },
+        {
+          "chemical_id": "P002-CHEM04",
+          "name": "Regent 800WG (diệt kiến), Basudin 10H (diệt rệp gốc)",
+          "active_ingredient": "Fipronil, Diazinon",
+          "type": "Thuốc trừ sâu (diệt kiến, diệt rệp gốc)",
+          "application_method": "Bước 1 (Bắt buộc): Dùng thuốc diệt kiến. Bước 2: Dùng thuốc hạt rải hoặc tưới quanh gốc để diệt rệp sáp gốc.",
+          "source": "taydojsc.com.vn, phanbonthuysinh.vn"
+        }
+      ],
+      "diagnosis_tips": [
+        "Dấu hiệu rõ nhất: Các cụm phấn trắng bám ở kẽ lá, chùm hoa, kẽ gai của trái.",
+        "Luôn luôn đi kèm với sự xuất hiện của KIẾN (đem rệp đi) và NẤM BỒ HÓNG (SR009).",
+        "Nếu cây vàng lá không rõ nguyên nhân, phải đào kiểm tra rễ để phát hiện rệp sáp gốc."
+      ],
+      "verified_sources": [
+        {
+          "source_name": "Tây Đô JSC",
+          "url": "https://www.taydojsc.com.vn/rep-sap-hai-sau-rieng/",
+          "document": "Rệp sáp hại sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Dr. Xanh",
+          "url": "https://drxanh.com/rep-sap-hai-sau-rieng-cach-phong-ngua-hieu-qua/",
+          "document": "Rệp sáp hại sầu riêng - Cách phòng ngừa hiệu quả",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Sinh Học Châu Á",
+          "url": "https://sinhhocchaua.com/bien-phap-quan-ly-rep-sap-hai-sau-rieng/",
+          "document": "Biện pháp quản lý rệp sáp hại sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Phân bón Thủy Sính",
+          "url": "https://phanbonthuysinh.vn/rep-sap-sau-rieng/",
+          "document": "Rệp sáp sầu riêng: Nguyên nhân, tác hại và cách phòng trừ",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Welofarm",
+          "url": "https://welofarm.vn/rep-sap-tan-cong-bong-sau-rieng-dang-xo-nhuy-phai-lam-sao",
+          "document": "Rệp sáp tấn công bông sầu riêng đang xổ nhuỵ",
+          "access_date": "2025-11-11"
+        }
+      ],
+      "images": [
+        {
+          "image_id": "P002-IMG01",
+          "description": "Rệp sáp bám thành mảng trắng trên cành.",
+          "filename": "images/P002/repsap_trai_taydo.webp",
+          "source": "drxanh.com"
+        },
+        {
+          "image_id": "P002-IMG02",
+          "description": "Rệp sáp tấn công và bám dày đặc trên chùm hoa (bông).",
+          "filename": "images/P002/repsap_hoa_welofarm.webp",
+          "source": "welofarm.vn"
+        },
+        {
+          "image_id": "P002-IMG03",
+          "description": "Hậu quả: Nấm Bồ Hóng bám đen trên bông do dịch mật của rệp sáp.",
+          "filename": "images/P002/repsap_bohong_drxanh.webp",
+          "source": "drxanh.com"
+        }
+      ],
+      "expert_notes": "Phải diệt KIẾN trước khi diệt rệp. Rệp có lớp sáp bảo vệ nên khi phun thuốc phải phun thật kỹ, ướt đẫm (lúc sáng sớm/chiều mát) và bắt buộc pha thêm Dầu Khoáng hoặc chất bám dính. Phải phun lặp lại 2-3 lần (cách nhau 5-7 ngày) để diệt hết lứa non mới nở.",
+      "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+      }
     }
   ]
 }
