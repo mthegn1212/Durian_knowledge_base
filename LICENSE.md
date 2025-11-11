@@ -17,6 +17,6 @@ The "Durian Knowledge Base" dataset is distributed under the Creative Commons At
 
 If you use this dataset, please attribute it as follows:
 
-> Trinh Minh Thang. (2025). Durian Knowledge Base [Data set]. Version 0.16.1. Retrieved from https://github.com/mthegn1212/Durian_knowledge_base
+> Trinh Minh Thang. (2025). Durian Knowledge Base [Data set]. Version 1.0.0. Retrieved from https://github.com/mthegn1212/Durian_knowledge_base
 
 Full License Legal Code: https://creativecommons.org/licenses/by/4.0/legalcode

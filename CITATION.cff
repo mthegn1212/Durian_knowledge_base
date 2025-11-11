@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: "Durian Knowledge Base"
 message: "If you use this dataset in your research or project, please cite it."
 type: dataset
-version: 0.16.1
+version: 1.0.0
 authors:
   - family-names: "Trinh"
     given-names: "Minh Thang"

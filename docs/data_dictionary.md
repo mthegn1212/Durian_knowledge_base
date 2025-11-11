@@ -1,6 +1,6 @@
 # 📖 Durian Knowledge Base - Data Dictionary
 
-This document explains the meaning of each key in the `dataset.json` file (as of v0.16.1).
+This document explains the meaning of each key in the `dataset.json` file (as of v1.0.0).
 
 ---
 

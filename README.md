@@ -30,4 +30,4 @@ This dataset is licensed under the **[Creative Commons Attribution 4.0 (CC BY 4.
 
 If you use this dataset in your research or project, please use the **[CITATION.cff](CITATION.cff)** file or cite as follows:
 
-> Trinh Minh Thang. (2025). Durian Knowledge Base [Data set]. Version 0.16.1. Retrieved from https://github.com/mthegn1212/Durian_knowledge_base
+> Trinh Minh Thang. (2025). Durian Knowledge Base [Data set]. Version 1.0.0. Retrieved from https://github.com/mthegn1212/Durian_knowledge_base

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "name": "Durian Knowledge Base",
-    "version": "0.16.1",
+    "version": "1.0.0",
     "description": "Bộ dữ liệu tri thức về bệnh hại, sâu, côn trùng gây hại và biện pháp xử lý cho cây sầu riêng.",
     "creator": {
       "name": "Trinh Minh Thang",
@@ -13,7 +13,7 @@
     "last_updated": "2025-11-11",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "citation": "Trinh Minh Thang. (2025). Durian Knowledge Base [Data set]. Version 0.16.1.",
+    "citation": "Trinh Minh Thang. (2025). Durian Knowledge Base [Data set]. Version 1.0.0.",
     "language": "vi",
     "geographical_coverage": ["Đồng bằng sông Cửu Long", "Tây Nguyên", "Đông Nam Bộ", "Miền Bắc"],
     "number_of_diseases": 10,
