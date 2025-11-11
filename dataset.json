@@ -2078,6 +2078,159 @@
         "consistency": 0.95,
         "last_verified": "2025-11-11"
       }
+    },
+    {
+      "pest_id": "P003",
+      "pest_name": "Sâu Đục Trái",
+      "scientific_name": "Conogethes punctiferalis",
+      "common_names": [
+        "Sâu đục quả",
+        "Sâu đục hột",
+        "Bướm đục trái"
+      ],
+      "pest_type": "Côn trùng (Sâu non của bướm)",
+      "severity_level": "rất_cao",
+      "risk_season": [
+        "Giai đoạn từ khi trái non hình thành (2-3 tuần tuổi) đến khi thu hoạch"
+      ],
+      "symptoms": {
+        "leaves": [
+          "Không tấn công."
+        ],
+        "stem": [
+          "Không tấn công."
+        ],
+        "roots": [
+          "Không tấn công."
+        ],
+        "fruits": [
+          "Xuất hiện các lỗ đục nhỏ trên vỏ trái, là nơi sâu non chui vào.",
+          "Dấu hiệu đặc trưng: Có bã phân (chất thải) của sâu đùn ra bên ngoài lỗ đục, màu nâu đen, sẫm màu.",
+          "Sâu non ăn phần thịt trái (cơm) và hột non bên trong.",
+          "Lỗ đục tạo điều kiện cho nấm, vi khuẩn xâm nhập gây thối trái từ bên trong, bốc mùi.",
+          "Trái bị tấn công khi còn non sẽ biến dạng, còi cọc, vàng và rụng sớm.",
+          "Trái lớn bị hại sẽ mất giá trị thương phẩm hoàn toàn, không thể tiêu thụ."
+        ],
+        "early_stage": "Phát hiện bướm (ngài) màu vàng, có chấm đen trên cánh, hoạt động ban đêm. Trên vỏ trái non xuất hiện lỗ đục nhỏ, có phân đùn ra.",
+        "late_stage": "Phân đùn ra nhiều, trái bị thối rữa (do bội nhiễm), bốc mùi và rụng."
+      },
+      "favorable_conditions": [
+        "Bướm trưởng thành (ngài) hoạt động và đẻ trứng mạnh vào ban đêm.",
+        "Giai đoạn cây mang trái non (từ 2-3 tuần tuổi) là thời điểm thu hút bướm đến đẻ trứng.",
+        "Vườn rậm rạp, thiếu ánh sáng, ẩm độ cao, tạo điều kiện cho bướm trú ngụ.",
+        "Vườn không được vệ sinh, tàn dư (trái rụng) không được thu dọn, tạo điều kiện cho sâu non hóa nhộng trong đất."
+      ],
+      "prevention_methods": {
+        "cultural": [
+          "Biện pháp quan trọng và hiệu quả nhất: Bao trái (bọc trái) bằng túi chuyên dụng khi trái được 30-45 ngày tuổi (to bằng quả trứng gà/vịt).",
+          "Thường xuyên vệ sinh vườn, cắt tỉa cành thông thoáng để hạn chế nơi bướm ẩn nấp.",
+          "Thu gom và tiêu hủy toàn bộ trái non, trái bị bệnh rụng xuống đất để diệt sâu non và nhộng bên trong."
+        ],
+        "biological": [
+          "Sử dụng bẫy đèn hoặc bẫy Pheromone để thu hút và tiêu diệt bướm trưởng thành (ngài) vào ban đêm.",
+          "Bảo vệ các loài thiên địch tự nhiên như ong ký sinh."
+        ],
+        "chemical_prevention": [
+          "Bắt buộc phun thuốc trừ sâu định kỳ (7-10 ngày/lần) ngay từ giai đoạn trái non (khi hoa rụng, trái bắt đầu hình thành) để diệt trứng và sâu non mới nở *trước khi* chúng kịp đục vào trái."
+        ]
+      },
+      "treatment_chemicals": [
+        {
+          "chemical_id": "P003-CHEM01",
+          "name": "Vibamec, Silsau 6.0EC, Tervigo",
+          "active_ingredient": "Abamectin, Emamectin Benzoate",
+          "type": "Thuốc trừ sâu (sinh học, tiếp xúc, vị độc, thấm sâu)",
+          "application_method": "Phun ướt đều trái non, cuống trái. Rất hiệu quả với sâu non mới nở. Phải luân phiên.",
+          "source": "sfarm.vn, taydojsc.com.vn, goldsunvn.com, sinhhocchaua.com, donasaigon.com"
+        },
+        {
+          "chemical_id": "P003-CHEM02",
+          "name": "Karate 2.5EC, Fastac 5EC",
+          "active_ingredient": "Lambda-cyhalothrin, Alpha-cypermethrin, Cypermethrin",
+          "type": "Thuốc trừ sâu (nhóm Pyrethroid, tiếp xúc, vị độc, xua đuổi bướm)",
+          "application_method": "Phun phòng để xua đuổi bướm đến đẻ trứng, diệt sâu non mới nở.",
+          "source": "sfarm.vn, goldsunvn.com, sinhhocchaua.com, donasaigon.com"
+        },
+        {
+          "chemical_id": "P003-CHEM03",
+          "name": "Voliam Targo 063SC, Prevathon 5SC",
+          "active_ingredient": "Chlorantraniliprole",
+          "type": "Thuốc trừ sâu (lưu dẫn, diệt sâu non)",
+          "application_method": "Phun định kỳ khi trái đang lớn, hiệu quả cao.",
+          "source": "sfarm.vn, donasaigon.com"
+        },
+        {
+          "chemical_id": "P003-CHEM04",
+          "name": "Match 050EC",
+          "active_ingredient": "Lufenuron",
+          "type": "Thuốc trừ sâu (điều hòa sinh trưởng, ức chế lột xác)",
+          "application_method": "Phun để diệt trứng và ức chế sâu non lột xác.",
+          "source": "taydojsc.com.vn"
+        }
+      ],
+      "diagnosis_tips": [
+        "Dấu hiệu rõ nhất: Lỗ đục nhỏ trên vỏ trái và có bã phân của sâu đùn ra bên ngoài.",
+        "Bướm (ngài) có màu vàng, cánh có nhiều chấm đen, hoạt động và đẻ trứng vào ban đêm."
+      ],
+      "verified_sources": [
+        {
+          "source_name": "Sfarm",
+          "url": "https://sfarm.vn/sau-duc-trai-sau-rieng-0492/",
+          "document": "Sâu đục trái sầu riêng | Nguyên nhân và cách phòng trị",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Tây Đô JSC",
+          "url": "https://taydojsc.com.vn/sau-duc-qua-sau-rieng/",
+          "document": "Sâu đục quả sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Goldsun VN",
+          "url": "https://goldsunvn.com/2024/05/10/phong-tru-sau-duc-trai-sau-rieng/",
+          "document": "PHÒNG TRỪ SÂU ĐỤC TRÁI SẦU RIÊNG HIỆU QUẢ",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Sinh Học Châu Á",
+          "url": "https://sinhhocchaua.com/bien-phap-phong-tru-sau-duc-qua-sau-rieng/",
+          "document": "Biện pháp phòng trừ sâu đục quả sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Dona Sài Gòn",
+          "url": "https://donasaigon.com/sau-duc-trai-moi-nguy-hai-tiem-an",
+          "document": "Sâu đục trái - Mối nguy hại tiềm ẩn",
+          "access_date": "2025-11-11"
+        }
+      ],
+      "images": [
+        {
+          "image_id": "P003-IMG01",
+          "description": "Bướm của sâu đục trái, màu vàng, chấm đen.",
+          "filename": "images/P003/buom_duc_trai.webp",
+          "source": "sfarm.vn"
+        },
+        {
+          "image_id": "P003-IMG02",
+          "description": "Dấu hiệu đặc trưng: Lỗ đục và phân sâu đùn ra từ vỏ trái.",
+          "filename": "images/P003/bieuhien_sau_duc_trai.jpg",
+          "source": "taydojsc.com.vn"
+        },
+        {
+          "image_id": "P003-IMG03",
+          "description": "Sâu non (ấu trùng) bên trong trái sầu riêng.",
+          "filename": "images/P003/sau_duc_trai_phan.jpg",
+          "source": "taydojsc.com.vn"
+        }
+      ],
+      "expert_notes": "Đây là đối tượng 'đã đục vào là thua'. Mọi biện pháp phun thuốc đều chỉ có tác dụng *trước khi* sâu chui vào trái. Khi sâu đã vào trong, thuốc không còn tác dụng. Biện pháp hiệu quả nhất, an toàn nhất là **bao trái**. Phải phun thuốc định kỳ 7-10 ngày/lần từ khi trái bằng quả trứng gà đến khi bao trái.",
+      "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+      }
     }
   ]
 }
