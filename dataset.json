@@ -1743,5 +1743,177 @@
         "last_verified": "2025-11-11"
     }
     }
+  ],
+  "pests": [
+    {
+      "pest_id": "P001",
+      "pest_name": "Rầy Nhảy (Rầy Xanh)",
+      "scientific_name": "Diaphorina durianis (Rầy Nhảy) và Empoasca spp. (Rầy Xanh)",
+      "common_names": [
+        "Rầy nhảy sầu riêng",
+        "Rầy xanh",
+        "Rầy chổng đít"
+      ],
+      "pest_type": "Côn trùng chích hút",
+      "severity_level": "rất_cao",
+      "risk_season": [
+        "Quanh năm (mỗi khi cây ra đọt non)",
+        "Bùng phát mạnh vào mùa mưa, độ ẩm cao"
+      ],
+      "symptoms": {
+        "leaves": [
+          "Chích hút nhựa ở đọt non và lá non.",
+          "Lá non bị xoăn, biến dạng, mép lá khô lại.",
+          "Lá non rụng hàng loạt.",
+          "Rầy Xanh (Empoasca spp.) thường làm lá lụa bị 'cháy' vàng ở mép lá."
+        ],
+        "stem": [
+          "Gây ra 'hiện tượng đọt trần' hay 'chổi chà'.",
+          "Do lá non rụng hết, cành non (đọt) trơ trụi, khô lại và chết.",
+          "Cây ngừng phát triển đọt, còi cọc, không thể ra cành mới."
+        ],
+        "roots": [
+          "Không tấn công rễ."
+        ],
+        "fruits": [
+          "Không tấn công trái trực tiếp, nhưng cây suy kiệt sẽ không thể nuôi trái."
+        ],
+        "early_stage": "Phát hiện côn trùng nhỏ (xanh hoặc vàng nâu) bay/nhảy nhanh khi chạm vào đọt non. Lá hơi xoăn nhẹ.",
+        "late_stage": "Đọt non bị trơ trụi hoàn toàn, lá rụng, cành khô đen, cây không phát đọt được."
+      },
+      "favorable_conditions": [
+        "Điều kiện bắt buộc: Cây đang trong giai đoạn ra đọt non.",
+        "Độ ẩm cao, mùa mưa, sương mù nhiều.",
+        "Vườn rậm rạp, thiếu ánh sáng, trồng dày.",
+        "Bón thừa phân đạm làm đọt non ra liên tục, thu hút rầy."
+      ],
+      "prevention_methods": {
+        "cultural": [
+          "Quan trọng nhất: Thăm vườn thường xuyên để phát hiện ngay khi cây vừa nhú đọt non.",
+          "Cắt tỉa cành, tạo tán thông thoáng, đảm bảo ánh nắng chiếu vào.",
+          "Quản lý cỏ dại để giảm nơi trú ẩn.",
+          "Bón phân NPK cân đối, không lạm dụng đạm."
+        ],
+        "biological": [
+          "Sử dụng bẫy dính màu vàng để thu hút và diệt rầy trưởng thành.",
+          "Sử dụng nấm ký sinh (Metarhizium, Beauveria) để phun."
+        ],
+        "chemical_prevention": [
+          "Bắt buộc phun phòng trừ định kỳ (7-10 ngày/lần) trong suốt quá trình cây ra đọt non cho đến khi lá già (lá lụa)."
+        ]
+      },
+      "treatment_chemicals": [
+        {
+          "chemical_id": "P001-CHEM01",
+          "name": "Confidor (hoặc Admire, Atabron)",
+          "active_ingredient": "Imidacloprid",
+          "type": "Thuốc trừ sâu (lưu dẫn, nội hấp)",
+          "application_method": "Phun ướt đều đọt non. Phải luân phiên với các nhóm thuốc khác.",
+          "source": "mekongagri.com, welofarm.vn, sinhhocchaua.com, goldsunvn.com, agridrone.vn"
+        },
+        {
+          "chemical_id": "P001-CHEM02",
+          "name": "Actara 25WG",
+          "active_ingredient": "Thiamethoxam",
+          "type": "Thuốc trừ sâu (lưu dẫn)",
+          "application_method": "Phun ướt đều đọt non. Phải luân phiên với các nhóm thuốc khác.",
+          "source": "mekongagri.com, welofarm.vn, sinhhocchaua.com"
+        },
+        {
+          "chemical_id": "P001-CHEM03",
+          "name": "Vibamec (hoặc Tervigo, Angun)",
+          "active_ingredient": "Abamectin",
+          "type": "Thuốc trừ sâu (tiếp xúc, vị độc)",
+          "application_method": "Phun ướt đều đọt non.",
+          "source": "mekongagri.com, welofarm.vn, nongnghiepavn.com"
+        },
+        {
+          "chemical_id": "P001-CHEM04",
+          "name": "Oshin 20WP (hoặc Sutin 50SC)",
+          "active_ingredient": "Dinotefuran",
+          "type": "Thuốc trừ sâu (lưu dẫn)",
+          "application_method": "Phun ướt đều đọt non.",
+          "source": "nongnghiepavn.com"
+        },
+        {
+          "chemical_id": "P001-CHEM05",
+          "name": "Applaud 25SC",
+          "active_ingredient": "Buprofezin",
+          "type": "Thuốc trừ sâu (điều hòa sinh trưởng, ức chế lột xác)",
+          "application_method": "Phun ướt đều đọt non, hiệu quả cao với trứng và rầy non.",
+          "source": "sinhhocchaua.com, agridrone.vn, nongnghiepavn.com"
+        }
+      ],
+      "diagnosis_tips": [
+        "Kiểm tra đọt non vào sáng sớm hoặc chiều mát.",
+        "Dùng tay lay nhẹ đọt non sẽ thấy các côn trùng nhỏ màu xanh hoặc vàng nâu bay/nhảy ra rất nhanh.",
+        "Phân biệt: Rầy Nhảy (Diaphorina) màu vàng nâu, tấn công đọt non nhất. Rầy Xanh (Empoasca) màu xanh, thường tấn công lá lụa (lá non đã mở nhưng chưa già)."
+      ],
+      "verified_sources": [
+        {
+          "source_name": "Mekong Agri",
+          "url": "https://mekongagri.com/ray-nhay-ke-thu-so-mot-cua-cay-sau-rieng-va-cach-phong-tru-hieu-qua/",
+          "document": "Rầy nhảy - Kẻ thù số một của cây sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Welofarm",
+          "url": "https://welofarm.vn/ray-xanh-tren-sau-rieng-noi-dau-khong-cua-rieng-ai",
+          "document": "Rầy xanh trên sầu riêng - Nỗi đau không của riêng ai",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Sinh Học Châu Á",
+          "url": "https://sinhhocchaua.com/quan-ly-ray-nhay-hai-sau-rieng-hieu-qua-an-toan/",
+          "document": "Quản lý rầy nhảy hại sầu riêng hiệu quả, an toàn",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Goldsun VN",
+          "url": "https://goldsunvn.com/2024/05/09/ray-xanh-va-ray-nhay-gay-hai-sau-rieng/",
+          "document": "Rầy Xanh và Rầy Nhảy Gây Hại Sầu Riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "AgriDrone Việt Nam",
+          "url": "https://agridrone.vn/ray-xanh-hai-sau-rieng/",
+          "document": "Rầy xanh hại sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Nông Nghiệp AVN",
+          "url": "https://nongnghiepavn.com/ray-nhay-ray-phan-ray-bong-trang-tren-sau-rieng/",
+          "document": "Rầy nhảy, rầy phấn, rầy bông trắng trên sầu riêng",
+          "access_date": "2025-11-11"
+        }
+      ],
+      "images": [
+        {
+          "image_id": "P001-IMG01",
+          "description": "Rầy nhảy trưởng thành (màu vàng nâu có tơ trắng) trên đọt non.",
+          "filename": "images/P001/raynhay_truongthanh.webp",
+          "source": "sinhhocchaua.com"
+        },
+        {
+          "image_id": "P001-IMG02",
+          "description": "Rầy xanh (màu xanh) trên lá sầu riêng.",
+          "filename": "images/P001/rayxanh_truongthanh.png",
+          "source": "goldsunvn.com/"
+        },
+        {
+          "image_id": "P001-IMG03",
+          "description": "Hậu quả: Đọt non bị xoăn, khô và trơ trụi (hiện tượng 'chổi chà').",
+          "filename": "images/P001/raynhay_choicha.webp",
+          "source": "sinhhocchaua.com"
+        }
+      ],
+      "expert_notes": "Đây là đối tượng nguy hiểm nhất của sầu riêng, đặc biệt là cây tơ. Chỉ cần lơ là một cơi đọt, cây có thể bị 'chổi chà' và mất 3-6 tháng để phục hồi. Phải phun thuốc luân phiên 7-10 ngày/lần ngay khi cây nhú đọt (mũi giáo) và duy trì cho đến khi lá già.",
+      "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+      }
+    }
   ]
 }
