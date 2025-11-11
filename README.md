@@ -1,8 +1,21 @@
+---
+pretty_name: "Durian Knowledge Base"
+tags:
+- "vietnamese"
+- "agriculture"
+- "plant-disease"
+- "durian"
+- "sầu riêng"
+- "bệnh cây trồng"
+- "json"
+license: "cc-by-4.0"
+---
+
 # 🍈 Durian Knowledge Base
 
 An open-source, manually-curated dataset containing detailed information on the most common diseases and pests affecting the Durian tree (Durio zibethinus) in Vietnam.
 
-This project is part of the [PlantDoctor Project](https://github.com/TuMinhIT/PlantDoctor.git) (Please update this link to your actual project repo) and aims to provide high-quality, structured data for AI-powered plant disease diagnostics and chatbot libraries.
+This project is part of the [PlantDoctor Project](https://github.com/mthegn1212/PlantDoctor) (Please update this link to your actual project repo) and aims to provide high-quality, structured data for AI-powered plant disease diagnostics and chatbot libraries.
 
 **Note:** The data content within `dataset.json` (such as names, symptoms, and treatments) is provided in **Vietnamese (vi)**.
 
@@ -24,7 +37,7 @@ To see how to load and query this data using Python, please see the **[example_u
 
 ## 📜 License
 
-This dataset is licensed under the **[Creative Commons Attribution 4.0 (CC BY 4.0)](LICENSE.md)**. You are free to use, share, and adapt it for any purpose (including commercial), as long as you provide proper attribution.
+This dataset is licensed under the **[Creative Commons Attribution 4.0 (CC BY 4.0)](LICENSE.md)**.
 
 ## 🤝 Citation
 
