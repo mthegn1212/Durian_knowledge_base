@@ -2530,6 +2530,156 @@
         "consistency": 0.95,
         "last_verified": "2025-11-11"
       }
+    },
+    {
+      "pest_id": "P006",
+      "pest_name": "Tuyến Trùng Hại Rễ",
+      "scientific_name": "Meloidogyne sp. (tuyến trùng nốt sần), Pratylenchus sp. (tuyến trùng đục rễ)",
+      "common_names": [
+        "Tuyến trùng nốt sần",
+        "Tuyến trùng",
+        "Bướu rễ"
+      ],
+      "pest_type": "Giun tròn (Nematode)",
+      "severity_level": "rất_cao",
+      "risk_season": [
+        "Quanh năm (vì sống trong đất)",
+        "Mùa mưa (dễ lây lan theo dòng nước)"
+      ],
+      "symptoms": {
+        "leaves": [
+          "Triệu chứng trên lá là hậu quả của việc rễ bị hỏng.",
+          "Cây sinh trưởng chậm, còi cọc.",
+          "Lá chuyển vàng (giống thiếu dinh dưỡng), héo rũ vào giữa trưa (khi trời nắng gắt), sau đó có thể phục hồi vào buổi chiều.",
+          "Bệnh nặng, cây bị vàng lá, rụng lá hàng loạt và chết."
+        ],
+        "stem": [
+          "Cây còi cọc, kém phát triển."
+        ],
+        "roots": [
+          "Đây là triệu chứng chính, phải đào lên mới thấy.",
+          "Rễ tơ (rễ cám) bị sưng lên, tạo thành các nốt u, bướu, nốt sần (gọi là 'galls').",
+          "Rễ bị biến dạng, thâm đen, hoại tử.",
+          "Các vết chích hút của tuyến trùng tạo ra hàng ngàn vết thương hở, là cửa ngõ cho nấm (Phytophthora, Fusarium) xâm nhập, gây Bệnh Vàng Lá Thối Rễ (SR002)."
+        ],
+        "fruits": [
+          "Không tấn công trực tiếp, nhưng cây suy kiệt sẽ không thể nuôi trái, gây rụng trái."
+        ],
+        "early_stage": "Cây sinh trưởng chậm, lá hơi vàng, héo nhẹ vào buổi trưa nắng.",
+        "late_stage": "Rễ bị u sần, thối đen nặng. Cây vàng lá, rụng lá hàng loạt (giống triệu chứng SR002) và chết."
+      },
+      "favorable_conditions": [
+        "Đất ẩm ướt (mùa mưa, tưới nhiều) giúp tuyến trùng dễ dàng di chuyển trong đất.",
+        "Đất cát, tơi xốp (tuyến trùng di chuyển dễ hơn đất sét nặng).",
+        "Đất chua (pH thấp), thiếu phân hữu cơ.",
+        "Lạm dụng phân bón hóa học, làm suy giảm hệ vi sinh vật đối kháng trong đất.",
+        "Lây lan qua nguồn nước tưới, cây giống, dụng cụ canh tác (cuốc, xẻng) dính đất."
+      ],
+      "prevention_methods": {
+        "cultural": [
+          "Chọn cây giống sạch bệnh, không mua cây có rễ bị u sần.",
+          "Quan trọng nhất: Bón nhiều phân hữu cơ hoai mục, phân chuồng ủ kỹ. Phân hữu cơ giúp tăng vi sinh vật đối kháng (nấm, vi khuẩn ăn tuyến trùng).",
+          "Bón vôi định kỳ để nâng pH đất (pH > 6), môi trường kiềm ức chế tuyến trùng.",
+          "Đảm bảo thoát nước tốt, tránh ngập úng kéo dài.",
+          "Luân canh (nếu là đất trồng mới) với cây cúc vạn thọ (rễ cúc vạn thọ tiết ra chất độc diệt tuyến trùng)."
+        ],
+        "biological": [
+          "Bắt buộc sử dụng các sản phẩm nấm đối kháng tuyến trùng (ví dụ: Paecilomyces lilacinus, Chaetomium) hoặc Trichoderma để tưới hoặc trộn vào phân bón."
+        ],
+        "chemical_prevention": [
+          "Sử dụng các loại thuốc trừ tuyến trùng dạng hạt (Ethoprophos, Carbofuran) rải quanh gốc vào đầu mùa mưa."
+        ]
+      },
+      "treatment_chemicals": [
+        {
+          "chemical_id": "P006-CHEM01",
+          "name": "Tervigo 020SC (dạng tưới), Vimoca 10G (dạng hạt)",
+          "active_ingredient": "Abamectin, Ethoprophos, Carbofuran",
+          "type": "Thuốc trừ tuyến trùng (dạng hạt, lỏng)",
+          "application_method": "Dạng hạt rải quanh gốc rồi lấp đất, tưới nước. Dạng lỏng pha nước tưới đẫm vùng rễ. Phải lặp lại 2-3 lần.",
+          "source": "taydojsc.com.vn, welofarm.vn, phanbonthuysinh.vn, nguyenlieusinhhoc.com"
+        },
+        {
+          "chemical_id": "P006-CHEM02",
+          "name": "Chế phẩm sinh học (ví dụ TKS Nema, Chitosan)",
+          "active_ingredient": "Paecilomyces sp., Chitosan",
+          "type": "Thuốc trừ tuyến trùng (sinh học)",
+          "application_method": "Pha nước tưới gốc để diệt tuyến trùng và trứng, hoặc kích thích cây tạo rễ mới.",
+          "source": "nguyenlieusinhhoc.com, sinhhocchaua.com, welofarm.vn"
+        },
+        {
+          "chemical_id": "P006-CHEM03",
+          "name": "Ridomil Gold, Aliette",
+          "active_ingredient": "Metalaxyl, Fosetyl-Aluminium",
+          "type": "Thuốc trị nấm (bệnh thứ cấp)",
+          "application_method": "Bắt buộc tưới KÈM VỚI thuốc tuyến trùng. Dùng để diệt nấm xâm nhập qua vết thương hở do tuyến trùng gây ra.",
+          "source": "welofarm.vn, sinhhocchaua.com, phanbonthuysinh.vn"
+        }
+      ],
+      "diagnosis_tips": [
+        "Cách duy nhất để chẩn đoán chính xác: Đào rễ tơ (rễ cám) ở vùng đất ẩm dưới tán lá.",
+        "Quan sát bằng mắt thường: Nếu rễ có các nốt u, bướu, nốt sần (to nhỏ không đều) thì chắc chắn 100% là tuyến trùng.",
+        "Cây vàng lá, héo rũ mà bón phân, tưới nước không xanh lại, phải nghĩ ngay đến tuyến trùng."
+      ],
+      "verified_sources": [
+        {
+          "source_name": "Tây Đô JSC",
+          "url": "https://www.taydojsc.com.vn/phong-chong-va-dieu-tri-tuyen-trung-re-sau-rieng/",
+          "document": "Phòng chống và điều trị tuyến trùng rễ sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Sinh Học Châu Á",
+          "url": "https://sinhhocchaua.com/nhan-biet-va-xu-ly-tuyen-trung-hai-re-sau-rieng/",
+          "document": "Nhận biết và xử lý tuyến trùng hại rễ sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Welofarm",
+          "url": "https://welofarm.vn/cach-phong-tri-tuyen-trung-tren-sau-rieng",
+          "document": "Cách phòng trị tuyến trùng trên sầu riêng",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Phân bón Thủy Sính",
+          "url": "https://phanbonthuysinh.vn/tuyen-trung-re-sau-rieng/",
+          "document": "Tuyến trùng rễ sầu riêng: Nguyên nhân, tác hại và cách phòng trừ",
+          "access_date": "2025-11-11"
+        },
+        {
+          "source_name": "Nguyên Liệu Sinh Học",
+          "url": "https://nguyenlieusinhhoc.com/tuyen-trung-re-sau-rieng/",
+          "document": "Tuyến trùng rễ sầu riêng: Dấu hiệu và giải pháp phòng trị",
+          "access_date": "2025-11-11"
+        }
+      ],
+      "images": [
+        {
+          "image_id": "P006-IMG01",
+          "description": "Triệu chứng lá vàng, héo rũ (triệu chứng trên mặt đất).",
+          "filename": "images/P006/tuyentrung_la_vang.webp",
+          "source": "sinhhocchaua.com"
+        },
+        {
+          "image_id": "P006-IMG02",
+          "description": "Dấu hiệu đặc trưng: Rễ bị u sần, nốt sần (bướu rễ) do tuyến trùng.",
+          "filename": "images/P006/tuyentrung_re_usan.webp",
+          "source": "sinhhocchaua.com"
+        },
+        {
+          "image_id": "P006-IMG03",
+          "description": "Cận cảnh rễ bị nốt sần (nematode galls).",
+          "filename": "images/P006/tuyentrung_re_cancanh.png",
+          "source": "nguyenlieusinhhoc.com"
+        }
+      ],
+      "expert_notes": "Đây là 'kẻ mở đường' nguy hiểm nhất, là nguyên nhân gốc rễ của Bệnh Vàng Lá Thối Rễ. Tuyến trùng chích hút tạo hàng ngàn vết thương hở ở rễ, giúp nấm Fusarium và Phytophthora xâm nhập. Vì vậy, phác đồ điều trị *bắt buộc* phải dùng 1 thuốc trị tuyến trùng + 1 thuốc trị nấm (như Metalaxyl/Aliette).",
+      "data_quality": {
+        "completeness": 0.98,
+        "accuracy": 0.95,
+        "consistency": 0.95,
+        "last_verified": "2025-11-11"
+      }
     }
   ]
 }
